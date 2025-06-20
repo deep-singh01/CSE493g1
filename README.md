@@ -1,0 +1,4 @@
+# CSE 493g1: Deep Learning
+Prof. Ranjay Krishna (SP '25)
+
+Course Description: This course is a deep dive into the details of deep learning algorithms, architectures, and tasks, with a focus on end-to-end models. We begin by grounding deep learning advancements particularly for the task of image classification; later, we generalize these ideas to many other tasks. During the 10-week course, students learn to implement and train their own neural networks and gain a detailed understanding of cutting-edge research in deep learning. Additionally, the final assignment provides the opportunity to train and apply multi-million parameter networks on student-chosen real-world vision problems. Through multiple hands-on assignments and the final course project, students acquire the toolset for setting up deep learning tasks and practical engineering tricks for training and fine-tuning deep neural networks.
