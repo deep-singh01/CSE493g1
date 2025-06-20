@@ -1,0 +1,4371 @@
+{
+  "metadata": {
+    "num_pairs": 484,
+    "generation_date": "2025-05-26 00:05:44",
+    "model_used": "BLIP + GPT-4o-mini (\u591a\u8fdb\u7a0b\u4fee\u590d\u7248)",
+    "task": "formal_vs_informal_image_captions",
+    "random_seed": 42,
+    "reproducible": true,
+    "multiprocess": true,
+    "correspondence_fixed": true,
+    "note": "\u4fee\u590d\u4e86\u56fe\u50cf\u5bf9\u5e94\u5173\u7cfb\u95ee\u9898"
+  },
+  "preference_pairs": [
+    {
+      "original": "the desk is clutteredd with lots of paperwork",
+      "chosen": "This image illustrates a desk overwhelmed by an extensive array of scattered paperwork.",
+      "rejected": "The desk is a total mess with papers everywhere!",
+      "caption_idx": 0,
+      "pair_id": 0,
+      "image_index": 17526,
+      "image_url": "http://farm3.staticflickr.com/2661/4104532194_15d0b0bebc_z.jpg"
+    },
+    {
+      "original": "the white lines on the ground",
+      "chosen": "This image illustrates the distinct white markings delineating pathways on the surface below.",
+      "rejected": "Check out those white lines on the ground!",
+      "caption_idx": 1,
+      "pair_id": 1,
+      "image_index": 1097,
+      "image_url": "http://farm1.staticflickr.com/63/201222003_99ab3848cf_z.jpg"
+    },
+    {
+      "original": "a bathroom with a sink and mirror in it",
+      "chosen": "This image illustrates a bathroom featuring a sink and an elegantly framed mirror.",
+      "rejected": "Check out this bathroom with a sink and mirror!",
+      "caption_idx": 2,
+      "pair_id": 2,
+      "image_index": 6208,
+      "image_url": "http://farm2.staticflickr.com/1324/5147698268_53589c46c2_z.jpg"
+    },
+    {
+      "original": "man using a computer",
+      "chosen": "This image captures an individual engaged in the operation of a personal computer.",
+      "rejected": "Dude's on the computer!",
+      "caption_idx": 3,
+      "pair_id": 3,
+      "image_index": 17509,
+      "image_url": "http://farm3.staticflickr.com/2058/2380722070_0476187fdf_z.jpg"
+    },
+    {
+      "original": "a cake with candle",
+      "chosen": "This image illustrates a beautifully decorated cake adorned with a lit candle at its center.",
+      "rejected": "Check out this cake with a candle!",
+      "caption_idx": 4,
+      "pair_id": 4,
+      "image_index": 36977,
+      "image_url": "http://farm1.staticflickr.com/177/421732169_70bb6b2cd2_z.jpg"
+    },
+    {
+      "original": "a kitchen with a yellow table cloth on the table",
+      "chosen": "This image showcases a well-appointed kitchen featuring a vibrant yellow tablecloth draped over the dining table.",
+      "rejected": "Check out this kitchen with a bright yellow tablecloth!",
+      "caption_idx": 5,
+      "pair_id": 5,
+      "image_index": 5137,
+      "image_url": "http://farm7.staticflickr.com/6052/6348486215_b05f6c9f3c_z.jpg"
+    },
+    {
+      "original": "a large airplane on the runway at an airport",
+      "chosen": "This image illustrates a sizable aircraft positioned on the tarmac of an airport.",
+      "rejected": "Big plane just chilling on the runway!",
+      "caption_idx": 6,
+      "pair_id": 6,
+      "image_index": 38038,
+      "image_url": "http://farm8.staticflickr.com/7031/6491062339_10d642456e_z.jpg"
+    },
+    {
+      "original": "a bathroom with two sinks and a tub",
+      "chosen": "This image illustrates a sophisticated bathroom featuring dual sinks and an elegant bathtub.",
+      "rejected": "Check out this bathroom with two sinks and a tub!",
+      "caption_idx": 7,
+      "pair_id": 7,
+      "image_index": 35885,
+      "image_url": "http://farm5.staticflickr.com/4085/5060273545_a57eae9317_z.jpg"
+    },
+    {
+      "original": "a small airplane is parked in an empty field",
+      "chosen": "This image illustrates a compact aircraft stationed within an unobstructed rural landscape.",
+      "rejected": "Check out this little plane just chillin' in the field!",
+      "caption_idx": 8,
+      "pair_id": 8,
+      "image_index": 14488,
+      "image_url": "http://farm6.staticflickr.com/5002/5233611398_f1965e419b_z.jpg"
+    },
+    {
+      "original": "the front door to the building with trees",
+      "chosen": "This image showcases the main entrance of a building framed by lush greenery.",
+      "rejected": "Check out the front door surrounded by trees!",
+      "caption_idx": 9,
+      "pair_id": 9,
+      "image_index": 12421,
+      "image_url": "http://farm6.staticflickr.com/5110/5574682043_8dea52edd6_z.jpg"
+    },
+    {
+      "original": "a small airplane flying through the air",
+      "chosen": "This image illustrates a compact aircraft soaring gracefully amidst the vast sky.",
+      "rejected": "Check out that little plane up in the sky!",
+      "caption_idx": 10,
+      "pair_id": 10,
+      "image_index": 2190,
+      "image_url": "http://farm7.staticflickr.com/6029/5977869600_dcca0dbc44_z.jpg"
+    },
+    {
+      "original": "a black jeep is parked on the street",
+      "chosen": "This image illustrates a black Jeep prominently stationed alongside a bustling urban thoroughfare.",
+      "rejected": "Check out this black Jeep parked on the street!",
+      "caption_idx": 11,
+      "pair_id": 11,
+      "image_index": 36948,
+      "image_url": "http://farm2.staticflickr.com/1080/978659759_706f5cdfdf_z.jpg"
+    },
+    {
+      "original": "two planes are on the runway at an airport",
+      "chosen": "This image illustrates two aircraft positioned on the runway of an airport facility.",
+      "rejected": "Check out these two planes on the runway!",
+      "caption_idx": 12,
+      "pair_id": 12,
+      "image_index": 15543,
+      "image_url": "http://farm5.staticflickr.com/4107/5217188941_c6f09b25f9_z.jpg"
+    },
+    {
+      "original": "a room filled with furniture and pictures",
+      "chosen": "This image illustrates an interior space adorned with various furnishings and artistic displays.",
+      "rejected": "Check out this room full of furniture and cool pictures!",
+      "caption_idx": 13,
+      "pair_id": 13,
+      "image_index": 32837,
+      "image_url": "http://farm9.staticflickr.com/8152/7557917184_18665c6434_z.jpg"
+    },
+    {
+      "original": "a display of bathroom items is shown",
+      "chosen": "This image presents an array of assorted bathroom essentials meticulously arranged for visual appeal.",
+      "rejected": "Check out these bathroom items!",
+      "caption_idx": 14,
+      "pair_id": 14,
+      "image_index": 7270,
+      "image_url": "http://farm7.staticflickr.com/6075/6155496426_d035b57a3f_z.jpg"
+    },
+    {
+      "original": "a black cat laying in a bathroom sink",
+      "chosen": "This image illustrates a black feline comfortably situated within a porcelain bathroom sink.",
+      "rejected": "Just a black cat chilling in the sink!",
+      "caption_idx": 15,
+      "pair_id": 15,
+      "image_index": 2125,
+      "image_url": "http://farm3.staticflickr.com/2380/2119248437_63610a1114_z.jpg"
+    },
+    {
+      "original": "a motorcycle parked in a field with other motorcycles",
+      "chosen": "This image illustrates a motorcycle situated amidst a verdant field alongside several other motorcycles.",
+      "rejected": "Check out this bike parked in the field!",
+      "caption_idx": 16,
+      "pair_id": 16,
+      "image_index": 28794,
+      "image_url": "http://farm3.staticflickr.com/2887/8990105276_cd66f532ea_z.jpg"
+    },
+    {
+      "original": "a man is riding a dirt bike in the woods",
+      "chosen": "This image illustrates an individual navigating a dirt bike through a densely wooded area.",
+      "rejected": "Check out this guy on his dirt bike in the woods!",
+      "caption_idx": 17,
+      "pair_id": 17,
+      "image_index": 13413,
+      "image_url": "http://farm8.staticflickr.com/7265/7700459442_ea3c579d77_z.jpg"
+    },
+    {
+      "original": "a woman riding a motorcycle down a road",
+      "chosen": "This image illustrates a female motorcyclist navigating a scenic highway on her vehicle.",
+      "rejected": "Check out this woman cruising on her bike!",
+      "caption_idx": 18,
+      "pair_id": 18,
+      "image_index": 24688,
+      "image_url": "http://farm3.staticflickr.com/2150/5820274056_a844cd6d57_z.jpg"
+    },
+    {
+      "original": "a row of white urns",
+      "chosen": "This image features an array of elegantly crafted white urns arranged in a linear fashion.",
+      "rejected": "Check out these white urns lined up!",
+      "caption_idx": 19,
+      "pair_id": 19,
+      "image_index": 17497,
+      "image_url": "http://farm1.staticflickr.com/127/333368514_73e420a58f_z.jpg"
+    },
+    {
+      "original": "a black and white photo of motorcycles lined up",
+      "chosen": "This image presents a monochromatic depiction of several motorcycles arranged in a linear formation.",
+      "rejected": "Check out these lined-up bikes!",
+      "caption_idx": 20,
+      "pair_id": 20,
+      "image_index": 18561,
+      "image_url": "http://farm9.staticflickr.com/8282/7631140616_74aaa3cee3_z.jpg"
+    },
+    {
+      "original": "two urckl on wall",
+      "chosen": "This image illustrates two intricately designed urckl affixed to a wall surface.",
+      "rejected": "Check out these two urckl on the wall!",
+      "caption_idx": 21,
+      "pair_id": 21,
+      "image_index": 32884,
+      "image_url": "http://farm3.staticflickr.com/2115/2367797965_9d120230f0_z.jpg"
+    },
+    {
+      "original": "a man in an apron standing in front of a brick oven",
+      "chosen": "This image features an individual clad in an apron, positioned before a traditional brick oven.",
+      "rejected": "Check out this guy in an apron by the oven!",
+      "caption_idx": 22,
+      "pair_id": 22,
+      "image_index": 13409,
+      "image_url": "http://farm4.staticflickr.com/3644/3342372576_2659ff8387_z.jpg"
+    },
+    {
+      "original": "the view of a room with many different objects",
+      "chosen": "This image presents an eclectic assortment of diverse objects within a room setting.",
+      "rejected": "Check out this room full of stuff!",
+      "caption_idx": 23,
+      "pair_id": 23,
+      "image_index": 28686,
+      "image_url": "http://farm9.staticflickr.com/8247/8596740670_8efdcd63fc_z.jpg"
+    },
+    {
+      "original": "a clock tower with an orange and yellow top",
+      "chosen": "This image showcases a clock tower adorned with a vibrant orange and yellow apex.",
+      "rejected": "Check out that cool clock tower!",
+      "caption_idx": 24,
+      "pair_id": 24,
+      "image_index": 34916,
+      "image_url": "http://farm4.staticflickr.com/3048/2853803053_174c5b3eda_z.jpg"
+    },
+    {
+      "original": "the cat is sitting in a sink",
+      "chosen": "This image features a domestic feline comfortably positioned within a kitchen sink.",
+      "rejected": "The cat's chilling in the sink!",
+      "caption_idx": 25,
+      "pair_id": 25,
+      "image_index": 8262,
+      "image_url": "http://farm5.staticflickr.com/4083/5006760848_79c999faca_z.jpg"
+    },
+    {
+      "original": "a cat on the floor near a door",
+      "chosen": "This image illustrates a feline resting on the floor adjacent to an entrance.",
+      "rejected": "Just a cat chilling by the door!",
+      "caption_idx": 26,
+      "pair_id": 26,
+      "image_index": 10373,
+      "image_url": "http://farm4.staticflickr.com/3584/3833032357_baa3718a28_z.jpg"
+    },
+    {
+      "original": "a blue bus with an open door and a painting",
+      "chosen": "This image illustrates a blue bus featuring an open door and an artistic mural.",
+      "rejected": "Check out this blue bus with a cool painting!",
+      "caption_idx": 27,
+      "pair_id": 27,
+      "image_index": 35951,
+      "image_url": "http://farm8.staticflickr.com/7142/6720256495_b53dc37b81_z.jpg"
+    },
+    {
+      "original": "a bathroom with a sink, toilet, and shower",
+      "chosen": "This image illustrates a bathroom equipped with a sink, toilet, and a shower enclosure.",
+      "rejected": "Check out this bathroom with a sink and shower!",
+      "caption_idx": 28,
+      "pair_id": 28,
+      "image_index": 72,
+      "image_url": "http://farm3.staticflickr.com/2493/4508204444_f52fa188e0_z.jpg"
+    },
+    {
+      "original": "a man and woman laughing while they are talking",
+      "chosen": "This image illustrates a man and woman engaged in a lighthearted conversation, sharing laughter.",
+      "rejected": "Just two people having a good laugh!",
+      "caption_idx": 30,
+      "pair_id": 29,
+      "image_index": 34827,
+      "image_url": "http://farm1.staticflickr.com/32/48891676_7158ab6339_z.jpg"
+    },
+    {
+      "original": "the bench is black and white",
+      "chosen": "This image showcases a bench characterized by a striking black and white color scheme.",
+      "rejected": "Check out this black and white bench!",
+      "caption_idx": 31,
+      "pair_id": 30,
+      "image_index": 31900,
+      "image_url": "http://farm9.staticflickr.com/8431/7530136290_8debc93911_z.jpg"
+    },
+    {
+      "original": "a woman is riding her bike with a dog",
+      "chosen": "This image illustrates a woman cycling with her canine companion accompanying her.",
+      "rejected": "A woman biking with her dog!",
+      "caption_idx": 32,
+      "pair_id": 31,
+      "image_index": 11309,
+      "image_url": "http://farm9.staticflickr.com/8491/8341664997_3e633d907e_z.jpg"
+    },
+    {
+      "original": "a white toilet sitting in a bathroom next to a window",
+      "chosen": "This image illustrates a pristine white toilet positioned adjacent to a window in a bathroom setting.",
+      "rejected": "Check out this white toilet by the window!",
+      "caption_idx": 33,
+      "pair_id": 32,
+      "image_index": 33913,
+      "image_url": "http://farm2.staticflickr.com/1067/1200362752_216c29a55c_z.jpg"
+    },
+    {
+      "original": "a boy on a wooden ramp in a park",
+      "chosen": "This image illustrates a young boy navigating a wooden ramp within a recreational park setting.",
+      "rejected": "Check out this kid on the ramp!",
+      "caption_idx": 34,
+      "pair_id": 33,
+      "image_index": 15378,
+      "image_url": "http://farm4.staticflickr.com/3626/3388665567_60d5afb492_z.jpg"
+    },
+    {
+      "original": "the snow is white",
+      "chosen": "This image illustrates a pristine blanket of white snow covering the landscape.",
+      "rejected": "It's a snowy wonderland out there!",
+      "caption_idx": 35,
+      "pair_id": 34,
+      "image_index": 2224,
+      "image_url": "http://farm5.staticflickr.com/4055/4256493283_ee8a86b2b1_z.jpg"
+    },
+    {
+      "original": "a group of people riding motorcycles down the street",
+      "chosen": "This image illustrates a collective of individuals navigating their motorcycles along a city thoroughfare.",
+      "rejected": "A bunch of folks cruising on bikes!",
+      "caption_idx": 36,
+      "pair_id": 35,
+      "image_index": 15498,
+      "image_url": "http://farm8.staticflickr.com/7435/8991073124_1eeb15e7c2_z.jpg"
+    },
+    {
+      "original": "a street with cars on it",
+      "chosen": "This image portrays a bustling urban thoroughfare adorned with various automobiles.",
+      "rejected": "Check out this street full of cars!",
+      "caption_idx": 37,
+      "pair_id": 36,
+      "image_index": 5258,
+      "image_url": "http://farm3.staticflickr.com/2049/2235385205_591aa5687b_z.jpg"
+    },
+    {
+      "original": "the wood table the food is on",
+      "chosen": "This image illustrates a rustic wooden table supporting an array of culinary delights.",
+      "rejected": "Check out this food on the wooden table!",
+      "caption_idx": 38,
+      "pair_id": 37,
+      "image_index": 11293,
+      "image_url": "http://farm4.staticflickr.com/3296/3087650653_0738417648_z.jpg"
+    },
+    {
+      "original": "two traffic lights at night time in a city",
+      "chosen": "This image illustrates two illuminated traffic signals against the backdrop of a nocturnal urban landscape.",
+      "rejected": "Check out these traffic lights at night!",
+      "caption_idx": 39,
+      "pair_id": 38,
+      "image_index": 27821,
+      "image_url": "http://farm1.staticflickr.com/54/132552070_6663e0e3bf_z.jpg"
+    },
+    {
+      "original": "a dog with its mouth open and its head turned in front",
+      "chosen": "This image portrays a canine exhibiting a playful demeanor with its mouth agape and head turned.",
+      "rejected": "Check out this dog with its mouth wide open!",
+      "caption_idx": 40,
+      "pair_id": 39,
+      "image_index": 29863,
+      "image_url": "http://farm3.staticflickr.com/2493/4151534870_c26a033f8c_z.jpg"
+    },
+    {
+      "original": "a stop sign in the middle of an intersection",
+      "chosen": "This image illustrates a red octagonal stop sign positioned prominently at a roadway junction.",
+      "rejected": "Check out that stop sign in the intersection!",
+      "caption_idx": 41,
+      "pair_id": 40,
+      "image_index": 13432,
+      "image_url": "http://farm1.staticflickr.com/118/367616966_b4b609fac8_z.jpg"
+    },
+    {
+      "original": "two red chairs are in front of a black wall",
+      "chosen": "This image illustrates two crimson chairs positioned against a contrasting black wall.",
+      "rejected": "Check out these red chairs by the black wall!",
+      "caption_idx": 42,
+      "pair_id": 41,
+      "image_index": 10351,
+      "image_url": "http://farm6.staticflickr.com/5128/5329959046_7707b15bdd_z.jpg"
+    },
+    {
+      "original": "a bathroom with a toilet and a towel hanging",
+      "chosen": "This image illustrates a well-appointed bathroom featuring a toilet and a neatly displayed towel.",
+      "rejected": "Check out this bathroom with a toilet and a towel!",
+      "caption_idx": 43,
+      "pair_id": 42,
+      "image_index": 30769,
+      "image_url": "http://farm8.staticflickr.com/7149/6854803979_5ea53a1f8a_z.jpg"
+    },
+    {
+      "original": "a computer desk sitting in front of a window",
+      "chosen": "This image illustrates a workstation positioned adjacent to a large window, facilitating natural light.",
+      "rejected": "Check out this desk by the window!",
+      "caption_idx": 44,
+      "pair_id": 43,
+      "image_index": 9314,
+      "image_url": "http://farm4.staticflickr.com/3264/2686093289_5885d97dda_z.jpg"
+    },
+    {
+      "original": "a black and white photo of a plane flying in the air",
+      "chosen": "This monochromatic photograph captures an aircraft soaring through the sky.",
+      "rejected": "Check out this plane flying up high!",
+      "caption_idx": 45,
+      "pair_id": 44,
+      "image_index": 13427,
+      "image_url": "http://farm7.staticflickr.com/6028/5977885934_2e12ea8a35_z.jpg"
+    },
+    {
+      "original": "two motorcycles parked on the side of a road",
+      "chosen": "This image illustrates two motorcycles positioned adjacent to a roadside, showcasing their design.",
+      "rejected": "Check out these two bikes by the road!",
+      "caption_idx": 46,
+      "pair_id": 45,
+      "image_index": 7309,
+      "image_url": "http://farm8.staticflickr.com/7083/7290153318_f80e9557b0_z.jpg"
+    },
+    {
+      "original": "a single engine plane in the sky",
+      "chosen": "This image illustrates a single-engine aircraft soaring through a clear blue sky.",
+      "rejected": "Check out that plane up in the sky!",
+      "caption_idx": 47,
+      "pair_id": 46,
+      "image_index": 6308,
+      "image_url": "http://farm6.staticflickr.com/5467/9789450173_4b344b70d9_z.jpg"
+    },
+    {
+      "original": "the toilet is dirty",
+      "chosen": "This image illustrates a sanitation facility exhibiting significant uncleanliness and maintenance neglect.",
+      "rejected": "Wow, that toilet's really gross!",
+      "caption_idx": 48,
+      "pair_id": 47,
+      "image_index": 24649,
+      "image_url": "http://farm7.staticflickr.com/6215/6293128631_124bb5f813_z.jpg"
+    },
+    {
+      "original": "a woman laying on a bed with her dog",
+      "chosen": "This image portrays a woman reclining on a bed alongside her canine companion.",
+      "rejected": "Chillin' on the bed with my dog!",
+      "caption_idx": 49,
+      "pair_id": 48,
+      "image_index": 36880,
+      "image_url": "http://farm6.staticflickr.com/5304/5586009162_403e3704d8_z.jpg"
+    },
+    {
+      "original": "a group of cars driving on a road at dusk",
+      "chosen": "This image illustrates multiple vehicles traversing a roadway during the twilight hours.",
+      "rejected": "A bunch of cars are cruising at sunset.",
+      "caption_idx": 50,
+      "pair_id": 49,
+      "image_index": 15451,
+      "image_url": "http://farm9.staticflickr.com/8237/8585447764_0d4528a33a_z.jpg"
+    },
+    {
+      "original": "a green bench sitting next to a bus",
+      "chosen": "This image illustrates a verdant bench positioned adjacent to a public transit vehicle.",
+      "rejected": "Check out the green bench by the bus!",
+      "caption_idx": 51,
+      "pair_id": 50,
+      "image_index": 19616,
+      "image_url": "http://farm3.staticflickr.com/2364/2155065738_b9f4314bf9_z.jpg"
+    },
+    {
+      "original": "the desk is white",
+      "chosen": "This image showcases a pristine white desk, emphasizing its minimalist aesthetic and elegance.",
+      "rejected": "Check out this all-white desk!",
+      "caption_idx": 52,
+      "pair_id": 51,
+      "image_index": 3229,
+      "image_url": "http://farm1.staticflickr.com/23/31433392_025a7e822e_z.jpg"
+    },
+    {
+      "original": "a motorcycle parked in front of a car",
+      "chosen": "This image showcases a motorcycle positioned strategically in front of an automobile.",
+      "rejected": "Check out this bike parked in front of a car!",
+      "caption_idx": 53,
+      "pair_id": 52,
+      "image_index": 10340,
+      "image_url": "http://farm8.staticflickr.com/7139/7089163105_57cc2e8acb_z.jpg"
+    },
+    {
+      "original": "a white toilet with a green light on it",
+      "chosen": "This image illustrates a porcelain toilet illuminated by a subtle green light.",
+      "rejected": "Check out this toilet with a green light!",
+      "caption_idx": 54,
+      "pair_id": 53,
+      "image_index": 3200,
+      "image_url": "http://farm3.staticflickr.com/2734/4401058480_2488354b68_z.jpg"
+    },
+    {
+      "original": "a small airplane sitting on the runway ready for takeoff",
+      "chosen": "This image illustrates a compact aircraft poised for imminent departure on the runway.",
+      "rejected": "Check out this little plane ready to fly!",
+      "caption_idx": 55,
+      "pair_id": 54,
+      "image_index": 17569,
+      "image_url": "http://farm6.staticflickr.com/5076/7066441073_74fc29109d_z.jpg"
+    },
+    {
+      "original": "the motorcycle is green and orange",
+      "chosen": "This image showcases a motorcycle adorned with vibrant green and orange hues.",
+      "rejected": "Check out this green and orange motorcycle!",
+      "caption_idx": 57,
+      "pair_id": 55,
+      "image_index": 30835,
+      "image_url": "http://farm6.staticflickr.com/5028/5614004682_6820507e33_z.jpg"
+    },
+    {
+      "original": "a bowl of fruit",
+      "chosen": "This image illustrates a decorative bowl filled with an assortment of fresh fruit.",
+      "rejected": "Check out this bowl of fruit!",
+      "caption_idx": 58,
+      "pair_id": 56,
+      "image_index": 33915,
+      "image_url": "http://farm1.staticflickr.com/178/462907911_ead93eda5b_z.jpg"
+    },
+    {
+      "original": "a man riding a motorcycle down the street",
+      "chosen": "This image portrays an individual operating a motorcycle while navigating a city thoroughfare.",
+      "rejected": "Dude's cruising on his bike down the street!",
+      "caption_idx": 59,
+      "pair_id": 57,
+      "image_index": 15468,
+      "image_url": "http://farm4.staticflickr.com/3633/3367245648_ef6b776c83_z.jpg"
+    },
+    {
+      "original": "a man riding on the back of a bike",
+      "chosen": "This image illustrates an individual seated on the rear of a bicycle, enjoying the ride.",
+      "rejected": "Dude's chillin' on the back of a bike!",
+      "caption_idx": 60,
+      "pair_id": 58,
+      "image_index": 1071,
+      "image_url": "http://farm5.staticflickr.com/4050/4651404175_295fc4cdcd_z.jpg"
+    },
+    {
+      "original": "a clock tower in a city next to some buildings",
+      "chosen": "This image illustrates a prominent clock tower situated amidst urban architecture.",
+      "rejected": "Check out that clock tower in the city!",
+      "caption_idx": 61,
+      "pair_id": 59,
+      "image_index": 93,
+      "image_url": "http://farm3.staticflickr.com/2696/4472391245_b1bb40bfe1_z.jpg"
+    },
+    {
+      "original": "a bathroom with two sinks and mirrors",
+      "chosen": "This image showcases a well-appointed bathroom featuring dual sinks and elegantly framed mirrors.",
+      "rejected": "Check out this bathroom with two sinks!",
+      "caption_idx": 62,
+      "pair_id": 60,
+      "image_index": 35889,
+      "image_url": "http://farm5.staticflickr.com/4133/5033655798_c375924255_z.jpg"
+    },
+    {
+      "original": "a man is riding a mountain bike",
+      "chosen": "This image illustrates an individual navigating rugged terrain on a mountain bicycle.",
+      "rejected": "Dude's biking on a mountain trail!",
+      "caption_idx": 63,
+      "pair_id": 61,
+      "image_index": 18546,
+      "image_url": "http://farm9.staticflickr.com/8389/8605543054_591c751251_z.jpg"
+    },
+    {
+      "original": "a street with some traffic lights and some buildings",
+      "chosen": "This image illustrates an urban thoroughfare characterized by traffic signals and various structures.",
+      "rejected": "Just a street with some lights and buildings!",
+      "caption_idx": 64,
+      "pair_id": 62,
+      "image_index": 12442,
+      "image_url": "http://farm6.staticflickr.com/5145/5873405614_7d280a93d5_z.jpg"
+    },
+    {
+      "original": "a cat is sitting on the sidewalk in front of a doorway",
+      "chosen": "This image features a feline companion poised on the pavement adjacent to a threshold.",
+      "rejected": "There's a cat chillin' by the door.",
+      "caption_idx": 65,
+      "pair_id": 63,
+      "image_index": 26767,
+      "image_url": "http://farm3.staticflickr.com/2236/2368565936_8a2b9cdda6_z.jpg"
+    },
+    {
+      "original": "a bathroom with a sink and a toilet",
+      "chosen": "This image illustrates a well-appointed bathroom featuring a sink and a toilet.",
+      "rejected": "Check out this bathroom with a sink and toilet!",
+      "caption_idx": 66,
+      "pair_id": 64,
+      "image_index": 12338,
+      "image_url": "http://farm9.staticflickr.com/8264/8615388924_02704314b6_z.jpg"
+    },
+    {
+      "original": "a white bathtub",
+      "chosen": "This image presents a pristine white bathtub, elegantly positioned in a serene bathroom setting.",
+      "rejected": "Check out this clean white tub!",
+      "caption_idx": 67,
+      "pair_id": 65,
+      "image_index": 22577,
+      "image_url": "http://farm8.staticflickr.com/7275/7090552159_7ac4bc7933_z.jpg"
+    },
+    {
+      "original": "a bathroom with a toilet, sink, and mirror",
+      "chosen": "This image illustrates a modern bathroom featuring a toilet, sink, and reflective mirror.",
+      "rejected": "Check out this bathroom with a toilet and sink!",
+      "caption_idx": 68,
+      "pair_id": 66,
+      "image_index": 20520,
+      "image_url": "http://farm7.staticflickr.com/6166/6141029857_957e4b58fa_z.jpg"
+    },
+    {
+      "original": "a car ' s side view mirror",
+      "chosen": "This image illustrates the side profile of an automobile's exterior mirror assembly.",
+      "rejected": "Check out this car's side mirror!",
+      "caption_idx": 69,
+      "pair_id": 67,
+      "image_index": 32870,
+      "image_url": "http://farm1.staticflickr.com/29/54500980_e57f65e506_z.jpg"
+    },
+    {
+      "original": "a cat sitting on top of a computer monitor",
+      "chosen": "This image illustrates a feline perched atop a computer monitor, exuding an air of curiosity.",
+      "rejected": "Check out this cat chillin' on the monitor!",
+      "caption_idx": 70,
+      "pair_id": 68,
+      "image_index": 6268,
+      "image_url": "http://farm5.staticflickr.com/4018/4595789899_dc68701883_z.jpg"
+    },
+    {
+      "original": "a bathroom that has a broken toilet and wood beams",
+      "chosen": "This image illustrates a restroom featuring a damaged toilet and exposed wooden beams.",
+      "rejected": "Check out this bathroom with a broken toilet!",
+      "caption_idx": 71,
+      "pair_id": 69,
+      "image_index": 36958,
+      "image_url": "http://farm4.staticflickr.com/3241/2976610336_f95edf3064_z.jpg"
+    },
+    {
+      "original": "a person is bending their bicycle on the beach",
+      "chosen": "This image illustrates an individual adjusting their bicycle along the shoreline.",
+      "rejected": "Someone's fixing their bike on the beach!",
+      "caption_idx": 72,
+      "pair_id": 70,
+      "image_index": 13360,
+      "image_url": "http://farm8.staticflickr.com/7069/6866451925_a73ffa24df_z.jpg"
+    },
+    {
+      "original": "a couple sitting on a bench together",
+      "chosen": "This image illustrates a pair of individuals seated closely on a park bench.",
+      "rejected": "Just a couple hanging out on a bench!",
+      "caption_idx": 73,
+      "pair_id": 71,
+      "image_index": 11420,
+      "image_url": "http://farm8.staticflickr.com/7213/6981041686_5914368e78_z.jpg"
+    },
+    {
+      "original": "two young men playing soccer on the beach",
+      "chosen": "This image portrays two young males engaging in a spirited game of soccer on the beach.",
+      "rejected": "Just two guys kicking a soccer ball on the beach!",
+      "caption_idx": 74,
+      "pair_id": 72,
+      "image_index": 23564,
+      "image_url": "http://farm5.staticflickr.com/4123/4744112744_c30349fefe_z.jpg"
+    },
+    {
+      "original": "a bathroom sink with a vase of flowers in it",
+      "chosen": "This image features a bathroom sink elegantly adorned by a vase containing fresh flowers.",
+      "rejected": "Check out the flowers in the sink!",
+      "caption_idx": 75,
+      "pair_id": 73,
+      "image_index": 37945,
+      "image_url": "http://farm8.staticflickr.com/7144/6428689787_13de1b9a91_z.jpg"
+    },
+    {
+      "original": "a bathroom with a toilet, sink, and shower",
+      "chosen": "This image illustrates a quintessential bathroom layout, featuring a toilet, sink, and shower enclosure.",
+      "rejected": "Check out this bathroom with a toilet and shower!",
+      "caption_idx": 76,
+      "pair_id": 74,
+      "image_index": 16438,
+      "image_url": "http://farm6.staticflickr.com/5048/5238196330_aeeaf4d917_z.jpg"
+    },
+    {
+      "original": "a black and white cat",
+      "chosen": "This image features a predominantly black and white feline, showcasing its distinctive coloration.",
+      "rejected": "Check out this cool black and white cat!",
+      "caption_idx": 77,
+      "pair_id": 75,
+      "image_index": 8311,
+      "image_url": "http://farm4.staticflickr.com/3244/2841722756_9c5fa483ff_z.jpg"
+    },
+    {
+      "original": "the water is clear",
+      "chosen": "This image illustrates a body of water exhibiting remarkable clarity and transparency.",
+      "rejected": "The water looks super clear!",
+      "caption_idx": 78,
+      "pair_id": 76,
+      "image_index": 9263,
+      "image_url": "http://farm4.staticflickr.com/3444/3397748707_022524c0bc_z.jpg"
+    },
+    {
+      "original": "a kitchen with white appliances and a sink",
+      "chosen": "This image showcases a contemporary kitchen featuring pristine white appliances and a functional sink.",
+      "rejected": "Check out this kitchen with white stuff!",
+      "caption_idx": 79,
+      "pair_id": 77,
+      "image_index": 10280,
+      "image_url": "http://farm9.staticflickr.com/8006/7631800336_ac54af9015_z.jpg"
+    },
+    {
+      "original": "a white toilet in a room with a picture on the wall",
+      "chosen": "This image illustrates a pristine white toilet situated within a tastefully decorated restroom.",
+      "rejected": "Check out this white toilet in the bathroom!",
+      "caption_idx": 80,
+      "pair_id": 78,
+      "image_index": 5162,
+      "image_url": "http://farm7.staticflickr.com/6011/6190371630_9424134cb6_z.jpg"
+    },
+    {
+      "original": "a small kitchen area with wood cabinets and a table",
+      "chosen": "This image illustrates a compact culinary space featuring wooden cabinetry and a dining table.",
+      "rejected": "Check out this cozy kitchen with a table!",
+      "caption_idx": 81,
+      "pair_id": 79,
+      "image_index": 4111,
+      "image_url": "http://farm9.staticflickr.com/8239/8631917551_683fda0e8d_z.jpg"
+    },
+    {
+      "original": "the motorcycle is moving",
+      "chosen": "This image illustrates a motorcycle in motion, showcasing its dynamic design and engineering.",
+      "rejected": "The bike's zooming by!",
+      "caption_idx": 83,
+      "pair_id": 80,
+      "image_index": 22619,
+      "image_url": "http://farm3.staticflickr.com/2860/8931406479_39cf7fca06_z.jpg"
+    },
+    {
+      "original": "a person surfing a large wave in the ocean",
+      "chosen": "This image illustrates an individual expertly navigating a substantial oceanic wave while surfing.",
+      "rejected": "Check out this surfer riding a big wave!",
+      "caption_idx": 84,
+      "pair_id": 81,
+      "image_index": 34847,
+      "image_url": "http://farm3.staticflickr.com/2448/3882554657_bc06e67552_z.jpg"
+    },
+    {
+      "original": "a blue motorcycle on the street",
+      "chosen": "This image showcases a blue motorcycle prominently parked on an urban street.",
+      "rejected": "Check out this blue bike on the road!",
+      "caption_idx": 85,
+      "pair_id": 82,
+      "image_index": 7299,
+      "image_url": "http://farm9.staticflickr.com/8056/8145207873_f2a1234d91_z.jpg"
+    },
+    {
+      "original": "a kitchen area with a white refrigerator and sink",
+      "chosen": "This image illustrates a contemporary kitchen featuring a pristine white refrigerator and an elegant sink.",
+      "rejected": "Check out this kitchen with a white fridge and sink!",
+      "caption_idx": 86,
+      "pair_id": 83,
+      "image_index": 20482,
+      "image_url": "http://farm8.staticflickr.com/7163/6619377149_f5346943a4_z.jpg"
+    },
+    {
+      "original": "people at the beach",
+      "chosen": "This image illustrates a diverse group of individuals enjoying leisure activities on a sandy beach.",
+      "rejected": "Looks like a fun day at the beach!",
+      "caption_idx": 87,
+      "pair_id": 84,
+      "image_index": 10266,
+      "image_url": "http://farm7.staticflickr.com/6087/6058962975_60cd1d3a68_z.jpg"
+    },
+    {
+      "original": "the cows are eating",
+      "chosen": "This image illustrates a group of cows grazing contentedly in a verdant pasture.",
+      "rejected": "The cows are munching away!",
+      "caption_idx": 88,
+      "pair_id": 85,
+      "image_index": 2,
+      "image_url": "http://farm3.staticflickr.com/2169/2118578392_1193aa04a0_z.jpg"
+    },
+    {
+      "original": "table with glass bowl",
+      "chosen": "This image illustrates a polished wooden table adorned with an elegant glass bowl.",
+      "rejected": "Check out this glass bowl on the table!",
+      "caption_idx": 89,
+      "pair_id": 86,
+      "image_index": 13403,
+      "image_url": "http://farm1.staticflickr.com/85/227658514_d5a0d2b8ef_z.jpg"
+    },
+    {
+      "original": "a motorcycle parked in front of a building",
+      "chosen": "This image illustrates a motorcycle stationary in proximity to a commercial structure.",
+      "rejected": "Check out this bike parked by the building!",
+      "caption_idx": 90,
+      "pair_id": 87,
+      "image_index": 23694,
+      "image_url": "http://farm4.staticflickr.com/3754/9637047714_04ed159a19_z.jpg"
+    },
+    {
+      "original": "a man riding on the back of a motorcycle",
+      "chosen": "This image illustrates an individual seated on the rear of a motorcycle, showcasing dynamic movement.",
+      "rejected": "Dude's just chilling on a motorcycle!",
+      "caption_idx": 91,
+      "pair_id": 88,
+      "image_index": 25712,
+      "image_url": "http://farm8.staticflickr.com/7100/7165374486_e37b206788_z.jpg"
+    },
+    {
+      "original": "a black and white photo of a bathroom",
+      "chosen": "This image presents a monochromatic depiction of a bathroom interior, highlighting its architectural features.",
+      "rejected": "Check out this black and white bathroom pic!",
+      "caption_idx": 92,
+      "pair_id": 89,
+      "image_index": 5184,
+      "image_url": "http://farm5.staticflickr.com/4152/4976418050_00d9ba0d03_z.jpg"
+    },
+    {
+      "original": "a motorcycle is parked on display",
+      "chosen": "This image features a meticulously designed motorcycle showcased prominently in an exhibition.",
+      "rejected": "Check out this cool motorcycle on display!",
+      "caption_idx": 93,
+      "pair_id": 90,
+      "image_index": 7311,
+      "image_url": "http://farm8.staticflickr.com/7067/6914078195_e169ac4172_z.jpg"
+    },
+    {
+      "original": "a bottle of wine on the table",
+      "chosen": "This image illustrates a meticulously arranged bottle of wine positioned elegantly on a table.",
+      "rejected": "Check out this wine bottle on the table!",
+      "caption_idx": 94,
+      "pair_id": 91,
+      "image_index": 19490,
+      "image_url": "http://farm6.staticflickr.com/5161/5319358247_9d5728534b_z.jpg"
+    },
+    {
+      "original": "a kitchen with lots of purple counter space",
+      "chosen": "This image showcases a modern kitchen featuring extensive purple countertop surfaces.",
+      "rejected": "Check out this kitchen with purple counters!",
+      "caption_idx": 95,
+      "pair_id": 92,
+      "image_index": 27663,
+      "image_url": "http://farm7.staticflickr.com/6160/6206762667_b852ea9b7e_z.jpg"
+    },
+    {
+      "original": "a bowl filled with rice and brocco",
+      "chosen": "This image features a ceramic bowl containing an ample serving of rice accompanied by broccoli florets.",
+      "rejected": "Check out this bowl of rice and broccoli!",
+      "caption_idx": 96,
+      "pair_id": 93,
+      "image_index": 10353,
+      "image_url": "http://farm8.staticflickr.com/7098/7048205287_26e553547d_z.jpg"
+    },
+    {
+      "original": "a person is taking pictures of a motorcycle",
+      "chosen": "This image illustrates an individual meticulously capturing photographs of a motorcycle.",
+      "rejected": "Someone's snapping pics of a motorcycle!",
+      "caption_idx": 97,
+      "pair_id": 94,
+      "image_index": 3213,
+      "image_url": "http://farm5.staticflickr.com/4128/5094646151_b2082b4f63_z.jpg"
+    },
+    {
+      "original": "a small airplane flying in the sky with no clouds",
+      "chosen": "This image illustrates a compact aircraft gliding effortlessly through an unclouded azure sky.",
+      "rejected": "Check out that little plane up there!",
+      "caption_idx": 98,
+      "pair_id": 95,
+      "image_index": 25753,
+      "image_url": "http://farm8.staticflickr.com/7198/6816788348_24edcc89ea_z.jpg"
+    },
+    {
+      "original": "people waiting for the funeral service in a street",
+      "chosen": "Individuals are gathered on the street, awaiting the commencement of the funeral service.",
+      "rejected": "People are hanging out on the street for a funeral.",
+      "caption_idx": 99,
+      "pair_id": 96,
+      "image_index": 5228,
+      "image_url": "http://farm9.staticflickr.com/8306/7936446138_2188b441fc_z.jpg"
+    },
+    {
+      "original": "a man in a kitchen",
+      "chosen": "This image illustrates a male individual engaged in culinary activities within a domestic kitchen environment.",
+      "rejected": "Just a guy cooking in the kitchen!",
+      "caption_idx": 100,
+      "pair_id": 97,
+      "image_index": 32805,
+      "image_url": "http://farm8.staticflickr.com/7152/6729159097_5a35803c93_z.jpg"
+    },
+    {
+      "original": "a toilet is in the corner of a room with a wall",
+      "chosen": "This image illustrates a sanitary fixture positioned in the corner of a room, adjacent to a wall.",
+      "rejected": "There's a toilet in the corner!",
+      "caption_idx": 101,
+      "pair_id": 98,
+      "image_index": 2098,
+      "image_url": "http://farm8.staticflickr.com/7265/7413014412_0b2eb2edc0_z.jpg"
+    },
+    {
+      "original": "a messy kitchen and living room",
+      "chosen": "This image illustrates a cluttered kitchen and adjoining living room space, reflecting disarray.",
+      "rejected": "The kitchen and living room are super messy!",
+      "caption_idx": 102,
+      "pair_id": 99,
+      "image_index": 21544,
+      "image_url": "http://farm9.staticflickr.com/8507/8522981620_290cecf63d_z.jpg"
+    },
+    {
+      "original": "a plane that is flying",
+      "chosen": "This image illustrates a commercial aircraft soaring through the clear blue sky.",
+      "rejected": "Look at that plane up in the sky!",
+      "caption_idx": 103,
+      "pair_id": 100,
+      "image_index": 30840,
+      "image_url": "http://farm5.staticflickr.com/4017/5156481243_7ef0672743_z.jpg"
+    },
+    {
+      "original": "a desk with multiple computers on it",
+      "chosen": "This image illustrates a workstation featuring an array of computers arranged systematically.",
+      "rejected": "Check out this desk with a bunch of computers!",
+      "caption_idx": 104,
+      "pair_id": 101,
+      "image_index": 24669,
+      "image_url": "http://farm4.staticflickr.com/3333/3171161577_eac2b9a56f_z.jpg"
+    },
+    {
+      "original": "a man in an orange jacket",
+      "chosen": "This image features an individual attired in a vibrant orange jacket, exuding confidence.",
+      "rejected": "Check out this dude in an orange jacket!",
+      "caption_idx": 105,
+      "pair_id": 102,
+      "image_index": 27653,
+      "image_url": "http://farm3.staticflickr.com/2502/3777662270_ef854f284c_z.jpg"
+    },
+    {
+      "original": "a bus is damaged in an accident",
+      "chosen": "The image illustrates a bus that has sustained significant damage following a vehicular collision.",
+      "rejected": "That bus got messed up in a crash!",
+      "caption_idx": 106,
+      "pair_id": 103,
+      "image_index": 33855,
+      "image_url": "http://farm1.staticflickr.com/152/336963513_0148f5e52b_z.jpg"
+    },
+    {
+      "original": "a bathroom with black cabinets and mirrors",
+      "chosen": "This image showcases a contemporary bathroom adorned with sleek black cabinetry and reflective mirrors.",
+      "rejected": "Check out this cool bathroom with black cabinets and mirrors!",
+      "caption_idx": 107,
+      "pair_id": 104,
+      "image_index": 33868,
+      "image_url": "http://farm3.staticflickr.com/2426/3648684697_6f0d88a2c7_z.jpg"
+    },
+    {
+      "original": "a city street lined with lots of stores",
+      "chosen": "This image illustrates an urban thoroughfare adorned with a diverse array of retail establishments.",
+      "rejected": "Looks like a busy shopping street!",
+      "caption_idx": 108,
+      "pair_id": 105,
+      "image_index": 28819,
+      "image_url": "http://farm1.staticflickr.com/46/135119001_429d871932_z.jpg"
+    },
+    {
+      "original": "a kitchen with dark cabinets and light fixtures",
+      "chosen": "This image illustrates a contemporary kitchen featuring dark cabinetry complemented by elegant light fixtures.",
+      "rejected": "Sweet kitchen with dark cabinets and cool lights!",
+      "caption_idx": 109,
+      "pair_id": 106,
+      "image_index": 25629,
+      "image_url": "http://farm8.staticflickr.com/7105/7167089478_b4984b9080_z.jpg"
+    },
+    {
+      "original": "a man in a straw hat playing the guitar",
+      "chosen": "This image features a gentleman adorned in a straw hat, skillfully strumming a guitar.",
+      "rejected": "Check out this guy jamming with his guitar!",
+      "caption_idx": 110,
+      "pair_id": 107,
+      "image_index": 25731,
+      "image_url": "http://farm1.staticflickr.com/194/480036335_64189cdc0b_z.jpg"
+    },
+    {
+      "original": "a group of people riding on top of a boat",
+      "chosen": "This image illustrates a diverse assembly of individuals navigating atop a boat.",
+      "rejected": "Just some folks chilling on a boat!",
+      "caption_idx": 111,
+      "pair_id": 108,
+      "image_index": 24673,
+      "image_url": "http://farm6.staticflickr.com/5257/5429775787_db93d0b30f_z.jpg"
+    },
+    {
+      "original": "a blue bowl with a banana",
+      "chosen": "This image features a vibrant blue bowl containing a single ripe banana.",
+      "rejected": "Check out this blue bowl with a banana!",
+      "caption_idx": 112,
+      "pair_id": 109,
+      "image_index": 34836,
+      "image_url": "http://farm2.staticflickr.com/1038/532927428_2809efeefc_z.jpg"
+    },
+    {
+      "original": "the big ben clock tower in london, england",
+      "chosen": "The iconic clock tower, known as Big Ben, stands prominently in London, England.",
+      "rejected": "Check out Big Ben in London!",
+      "caption_idx": 113,
+      "pair_id": 110,
+      "image_index": 23734,
+      "image_url": "http://farm3.staticflickr.com/2369/2289145500_76828216cd_z.jpg"
+    },
+    {
+      "original": "a computer desk with a banana on top",
+      "chosen": "This image illustrates a computer workstation featuring a banana prominently positioned atop the desk.",
+      "rejected": "There's a banana sitting on the desk!",
+      "caption_idx": 114,
+      "pair_id": 111,
+      "image_index": 21624,
+      "image_url": "http://farm3.staticflickr.com/2197/2072119747_e625bab3d7_z.jpg"
+    },
+    {
+      "original": "a man is typing on his computer",
+      "chosen": "This image portrays an individual engaged in the act of typing on a laptop.",
+      "rejected": "Dude's typing on his laptop!",
+      "caption_idx": 115,
+      "pair_id": 112,
+      "image_index": 27780,
+      "image_url": "http://farm9.staticflickr.com/8067/8277596201_98a02b0b28_z.jpg"
+    },
+    {
+      "original": "a large airplane on the ground",
+      "chosen": "This image showcases a sizable aircraft stationed on the tarmac, awaiting departure.",
+      "rejected": "Check out this big plane on the runway!",
+      "caption_idx": 116,
+      "pair_id": 113,
+      "image_index": 24718,
+      "image_url": "http://farm9.staticflickr.com/8231/8515566452_2612a440e7_z.jpg"
+    },
+    {
+      "original": "a kitchen that has a table with several dishes on it",
+      "chosen": "This image illustrates a domestic kitchen featuring a table adorned with various culinary dishes.",
+      "rejected": "Check out this kitchen table full of dishes!",
+      "caption_idx": 117,
+      "pair_id": 114,
+      "image_index": 24578,
+      "image_url": "http://farm8.staticflickr.com/7001/6590444993_42ee1edef5_z.jpg"
+    },
+    {
+      "original": "a person on a motorcycle riding down the middle of a city",
+      "chosen": "The image illustrates an individual navigating a motorcycle through an urban thoroughfare.",
+      "rejected": "Just a rider cruising through the city!",
+      "caption_idx": 118,
+      "pair_id": 115,
+      "image_index": 33917,
+      "image_url": "http://farm8.staticflickr.com/7013/6623882631_c9a0826b47_z.jpg"
+    },
+    {
+      "original": "a woman sitting down holding a baby",
+      "chosen": "This image portrays a seated woman gently cradling an infant in her arms.",
+      "rejected": "Mom's cuddling her baby!",
+      "caption_idx": 119,
+      "pair_id": 116,
+      "image_index": 8217,
+      "image_url": "http://farm4.staticflickr.com/3339/3672181666_cfe25af65d_z.jpg"
+    },
+    {
+      "original": "several colorful kites are hanging in a room",
+      "chosen": "This image illustrates a collection of vibrant kites suspended from the ceiling within an indoor space.",
+      "rejected": "Check out these colorful kites hanging out inside!",
+      "caption_idx": 120,
+      "pair_id": 117,
+      "image_index": 20598,
+      "image_url": "http://farm6.staticflickr.com/5213/5494088284_c9b3679131_z.jpg"
+    },
+    {
+      "original": "a bathroom with three toilets and two sinks",
+      "chosen": "This image illustrates a restroom facility featuring three individual toilets and two wash basins.",
+      "rejected": "Check out this bathroom with three toilets and two sinks!",
+      "caption_idx": 121,
+      "pair_id": 118,
+      "image_index": 14446,
+      "image_url": "http://farm4.staticflickr.com/3439/3799421587_f1a24cb07d_z.jpg"
+    },
+    {
+      "original": "a man wearing glasses",
+      "chosen": "This image features an individual adorned with optical spectacles, enhancing his vision.",
+      "rejected": "Check out this guy in glasses!",
+      "caption_idx": 122,
+      "pair_id": 119,
+      "image_index": 12347,
+      "image_url": "http://farm2.staticflickr.com/1334/1176519574_b4d569ecbe_z.jpg"
+    },
+    {
+      "original": "a bathroom with two sinks and a toilet",
+      "chosen": "This image showcases a modern bathroom featuring dual sinks and a standard toilet.",
+      "rejected": "Check out this bathroom with two sinks!",
+      "caption_idx": 123,
+      "pair_id": 120,
+      "image_index": 5173,
+      "image_url": "http://farm2.staticflickr.com/1348/5100833656_3bef9537d0_z.jpg"
+    },
+    {
+      "original": "a person on a motorcycle is riding down the road",
+      "chosen": "This image illustrates an individual operating a motorcycle while traversing a road.",
+      "rejected": "Someone's cruising on a motorcycle down the road!",
+      "caption_idx": 124,
+      "pair_id": 121,
+      "image_index": 12407,
+      "image_url": "http://farm9.staticflickr.com/8454/8019628616_17f9363dc8_z.jpg"
+    },
+    {
+      "original": "a white toilet sitting next to a sink",
+      "chosen": "This image illustrates a pristine white toilet positioned adjacent to a ceramic sink.",
+      "rejected": "There's a white toilet next to a sink!",
+      "caption_idx": 125,
+      "pair_id": 122,
+      "image_index": 16430,
+      "image_url": "http://farm5.staticflickr.com/4004/4305047716_0107b8d13c_z.jpg"
+    },
+    {
+      "original": "a green and white lamp post",
+      "chosen": "This image features a lamp post adorned in a green and white color scheme.",
+      "rejected": "Check out this green and white lamp post!",
+      "caption_idx": 126,
+      "pair_id": 123,
+      "image_index": 14463,
+      "image_url": "http://farm6.staticflickr.com/5133/5454481007_90b84cfcd8_z.jpg"
+    },
+    {
+      "original": "a person is skateboarding",
+      "chosen": "This image illustrates an individual skillfully maneuvering a skateboard along a smooth surface.",
+      "rejected": "Someone's riding a skateboard!",
+      "caption_idx": 127,
+      "pair_id": 124,
+      "image_index": 33,
+      "image_url": "http://farm8.staticflickr.com/7355/8825114508_b0fa4d7168_z.jpg"
+    },
+    {
+      "original": "the man is riding a motorcycle",
+      "chosen": "This image illustrates an individual operating a motorcycle on a paved roadway.",
+      "rejected": "Dude's cruising on his bike!",
+      "caption_idx": 128,
+      "pair_id": 125,
+      "image_index": 25711,
+      "image_url": "http://farm9.staticflickr.com/8017/7160882052_86d7c13353_z.jpg"
+    },
+    {
+      "original": "a large blue and white plane",
+      "chosen": "This image illustrates an impressive aircraft adorned in a striking blue and white livery.",
+      "rejected": "Check out this big blue and white plane!",
+      "caption_idx": 129,
+      "pair_id": 126,
+      "image_index": 38040,
+      "image_url": "http://farm7.staticflickr.com/6096/6231242385_0f9285b66f_z.jpg"
+    },
+    {
+      "original": "a toilet in a room with a tiled floor",
+      "chosen": "This image illustrates a porcelain toilet situated within a room adorned with tiled flooring.",
+      "rejected": "Check out this bathroom with a toilet!",
+      "caption_idx": 130,
+      "pair_id": 127,
+      "image_index": 36914,
+      "image_url": "http://farm4.staticflickr.com/3375/3424650283_e0fb70044b_z.jpg"
+    },
+    {
+      "original": "a black and white bathroom",
+      "chosen": "This image showcases a monochromatic bathroom characterized by elegant black and white decor.",
+      "rejected": "Check out this black and white bathroom!",
+      "caption_idx": 131,
+      "pair_id": 128,
+      "image_index": 30758,
+      "image_url": "http://farm2.staticflickr.com/1400/1388653285_ead5ea81c0_z.jpg"
+    },
+    {
+      "original": "a black and white dog",
+      "chosen": "This image presents a striking black and white canine, showcasing its distinctive coat pattern.",
+      "rejected": "Check out this cool black and white dog!",
+      "caption_idx": 132,
+      "pair_id": 129,
+      "image_index": 23594,
+      "image_url": "http://farm2.staticflickr.com/1189/557405084_6ee7c98e8b_z.jpg"
+    },
+    {
+      "original": "a woman laying in bed with a blue hat on her head",
+      "chosen": "This image portrays an individual reclined on a bed, adorned with a blue hat.",
+      "rejected": "Chillin' in bed with a blue hat!",
+      "caption_idx": 133,
+      "pair_id": 130,
+      "image_index": 9216,
+      "image_url": "http://farm3.staticflickr.com/2737/4145532937_2747d641ef_z.jpg"
+    },
+    {
+      "original": "a cat sitting on top of the toilet seat",
+      "chosen": "This image illustrates a domestic feline perched atop a toilet seat in a restroom environment.",
+      "rejected": "The cat's chilling on the toilet!",
+      "caption_idx": 134,
+      "pair_id": 131,
+      "image_index": 29783,
+      "image_url": "http://farm4.staticflickr.com/3088/2618820116_10394eda1a_z.jpg"
+    },
+    {
+      "original": "a bathroom with a toilet, sink, and shower stall",
+      "chosen": "This image illustrates a contemporary bathroom featuring a toilet, sink, and a shower enclosure.",
+      "rejected": "Check out this bathroom with a toilet and shower!",
+      "caption_idx": 135,
+      "pair_id": 132,
+      "image_index": 13363,
+      "image_url": "http://farm6.staticflickr.com/5295/5498660362_77636582e2_z.jpg"
+    },
+    {
+      "original": "a bathroom with black and white tiles",
+      "chosen": "This image showcases a meticulously designed bathroom featuring an elegant black and white tiled floor.",
+      "rejected": "Check out this cool black and white bathroom!",
+      "caption_idx": 136,
+      "pair_id": 133,
+      "image_index": 40000,
+      "image_url": "http://farm1.staticflickr.com/13/19118709_9930d2cf6b_z.jpg"
+    },
+    {
+      "original": "a dog sticking his head out of a window",
+      "chosen": "This image illustrates a canine extending its head through an open window, enjoying the breeze.",
+      "rejected": "Dog's loving the fresh air out the window!",
+      "caption_idx": 137,
+      "pair_id": 134,
+      "image_index": 17537,
+      "image_url": "http://farm1.staticflickr.com/9/13734806_f810285dd7_z.jpg"
+    },
+    {
+      "original": "a man riding on a red motorcycle",
+      "chosen": "This image portrays an individual navigating a vibrant red motorcycle with precision.",
+      "rejected": "Check out this guy on a red bike!",
+      "caption_idx": 138,
+      "pair_id": 135,
+      "image_index": 30789,
+      "image_url": "http://farm8.staticflickr.com/7267/6895955018_e83a0bdb87_z.jpg"
+    },
+    {
+      "original": "small planes on a runway",
+      "chosen": "This image showcases several small aircraft positioned on an expansive runway.",
+      "rejected": "Look at those little planes on the runway!",
+      "caption_idx": 139,
+      "pair_id": 136,
+      "image_index": 7339,
+      "image_url": "http://farm4.staticflickr.com/3788/9888441534_5fa5ecc1e2_z.jpg"
+    },
+    {
+      "original": "a small bird is sitting on a rim",
+      "chosen": "This image illustrates a diminutive avian creature perched upon a circular edge.",
+      "rejected": "Check out that little bird on the rim!",
+      "caption_idx": 140,
+      "pair_id": 137,
+      "image_index": 10337,
+      "image_url": "http://farm4.staticflickr.com/3049/2605625581_bcf4486f1d_z.jpg"
+    },
+    {
+      "original": "a white microwave oven",
+      "chosen": "This image illustrates a pristine white microwave oven positioned in a contemporary kitchen setting.",
+      "rejected": "Check out this white microwave!",
+      "caption_idx": 141,
+      "pair_id": 138,
+      "image_index": 1043,
+      "image_url": "http://farm3.staticflickr.com/2055/2652474505_a15312876f_z.jpg"
+    },
+    {
+      "original": "a red motorcycle is parked in front of a store",
+      "chosen": "This image illustrates a vibrant red motorcycle stationed in proximity to a retail establishment.",
+      "rejected": "Check out that red bike outside the store!",
+      "caption_idx": 142,
+      "pair_id": 139,
+      "image_index": 24658,
+      "image_url": "http://farm6.staticflickr.com/5501/9503899803_8e528db3fa_z.jpg"
+    },
+    {
+      "original": "a blue motorcycle with a red number and a man in yellow jacket",
+      "chosen": "This image showcases a blue motorcycle adorned with a prominent red numeral, accompanied by an individual dressed in a yellow jacket.",
+      "rejected": "Check out this blue bike with a red number and a guy in a yellow jacket!",
+      "caption_idx": 143,
+      "pair_id": 140,
+      "image_index": 35921,
+      "image_url": "http://farm8.staticflickr.com/7430/10115254473_e8d1c62ca1_z.jpg"
+    },
+    {
+      "original": "a bathroom with urves and a urves",
+      "chosen": "This image features a bathroom characterized by elegantly curved fixtures and design elements.",
+      "rejected": "Check out this cool bathroom with curvy stuff!",
+      "caption_idx": 144,
+      "pair_id": 141,
+      "image_index": 34922,
+      "image_url": "http://farm1.staticflickr.com/225/505515728_d7c617417d_z.jpg"
+    },
+    {
+      "original": "a motorcycle with a green seat on a street",
+      "chosen": "This image illustrates a motorcycle featuring a distinctive green seat positioned on an urban roadway.",
+      "rejected": "Check out this bike with a green seat!",
+      "caption_idx": 145,
+      "pair_id": 142,
+      "image_index": 39057,
+      "image_url": "http://farm7.staticflickr.com/6035/6253630691_7ab3360656_z.jpg"
+    },
+    {
+      "original": "white porcelain toilet with lid",
+      "chosen": "This image presents a pristine white porcelain toilet, complete with a closed lid.",
+      "rejected": "Check out this clean white toilet!",
+      "caption_idx": 146,
+      "pair_id": 143,
+      "image_index": 29743,
+      "image_url": "http://farm5.staticflickr.com/4148/4989657353_3de0680427_z.jpg"
+    },
+    {
+      "original": "a toilet in a bathroom with the lid up",
+      "chosen": "This image illustrates a porcelain toilet positioned within a domestic bathroom environment, lid elevated.",
+      "rejected": "The toilet's lid is up in the bathroom.",
+      "caption_idx": 147,
+      "pair_id": 144,
+      "image_index": 28780,
+      "image_url": "http://farm6.staticflickr.com/5467/8816778903_1c53a55556_z.jpg"
+    },
+    {
+      "original": "a woman riding a bicycle down a path",
+      "chosen": "This image illustrates a female cyclist traversing a scenic pathway amid lush surroundings.",
+      "rejected": "Check out this woman biking down a path!",
+      "caption_idx": 148,
+      "pair_id": 145,
+      "image_index": 3120,
+      "image_url": "http://farm6.staticflickr.com/5017/5543817299_dc577e740b_z.jpg"
+    },
+    {
+      "original": "a clock tower with a full moon in the background",
+      "chosen": "This image illustrates a clock tower prominently situated under the luminous full moon.",
+      "rejected": "Check out this clock tower with a big moon behind it!",
+      "caption_idx": 149,
+      "pair_id": 146,
+      "image_index": 7265,
+      "image_url": "http://farm5.staticflickr.com/4024/4446718116_d447314dc2_z.jpg"
+    },
+    {
+      "original": "a bathroom with white walls and flooring",
+      "chosen": "This image illustrates a pristine bathroom featuring immaculate white walls and elegant flooring.",
+      "rejected": "Check out this all-white bathroom!",
+      "caption_idx": 150,
+      "pair_id": 147,
+      "image_index": 3137,
+      "image_url": "http://farm6.staticflickr.com/5269/5635497496_fcc2493179_z.jpg"
+    },
+    {
+      "original": "a man sitting at a computer playing an acoustic guitar",
+      "chosen": "This image showcases a gentleman engaging in a musical performance while seated at a computer.",
+      "rejected": "Dude's jamming on his guitar at the computer!",
+      "caption_idx": 151,
+      "pair_id": 148,
+      "image_index": 9221,
+      "image_url": "http://farm4.staticflickr.com/3441/3358391817_0430f11ac5_z.jpg"
+    },
+    {
+      "original": "a woman sitting on top of a bench next to a body of water",
+      "chosen": "This image illustrates a woman perched upon a bench adjacent to a tranquil body of water.",
+      "rejected": "A woman is chillin' on a bench by the water.",
+      "caption_idx": 152,
+      "pair_id": 149,
+      "image_index": 34837,
+      "image_url": "http://farm4.staticflickr.com/3219/2694481988_dc6a0be0ab_z.jpg"
+    },
+    {
+      "original": "two people riding a motorcycle on a street",
+      "chosen": "This image illustrates a pair of individuals navigating a motorcycle along an urban thoroughfare.",
+      "rejected": "Two folks cruising on a motorcycle down the street!",
+      "caption_idx": 153,
+      "pair_id": 150,
+      "image_index": 16508,
+      "image_url": "http://farm4.staticflickr.com/3050/2745085550_cf23c98d4f_z.jpg"
+    },
+    {
+      "original": "a street light with a red sign on it",
+      "chosen": "This image illustrates a streetlight prominently displaying a vivid red traffic signal.",
+      "rejected": "Check out this streetlight with a red sign!",
+      "caption_idx": 154,
+      "pair_id": 151,
+      "image_index": 23724,
+      "image_url": "http://farm5.staticflickr.com/4022/4313534911_4b462806f2_z.jpg"
+    },
+    {
+      "original": "a desk with computer equipment and several other office items",
+      "chosen": "This image illustrates a workspace furnished with computer technology and various office supplies.",
+      "rejected": "Check out this messy desk with tech stuff!",
+      "caption_idx": 155,
+      "pair_id": 152,
+      "image_index": 24675,
+      "image_url": "http://farm1.staticflickr.com/157/367463462_edb853b6ac_z.jpg"
+    },
+    {
+      "original": "two kittens sitting on a wooden fence",
+      "chosen": "This image illustrates two playful felines perched atop a rustic wooden fence.",
+      "rejected": "Look at these two cute kittens on the fence!",
+      "caption_idx": 156,
+      "pair_id": 153,
+      "image_index": 8294,
+      "image_url": "http://farm7.staticflickr.com/6215/6318825826_9981f0c607_z.jpg"
+    },
+    {
+      "original": "a dog sitting on someone ' s lap",
+      "chosen": "This image illustrates a canine companion comfortably perched on an individual's lap.",
+      "rejected": "A dog is chilling on someone's lap!",
+      "caption_idx": 157,
+      "pair_id": 154,
+      "image_index": 2184,
+      "image_url": "http://farm1.staticflickr.com/6/5699696_2d3b358ea0_z.jpg"
+    },
+    {
+      "original": "the grass is green",
+      "chosen": "This image illustrates a verdant expanse of grass, showcasing its vibrant green hues.",
+      "rejected": "Check out that green grass!",
+      "caption_idx": 158,
+      "pair_id": 155,
+      "image_index": 10264,
+      "image_url": "http://farm5.staticflickr.com/4135/4921664146_f876699bf2_z.jpg"
+    },
+    {
+      "original": "a small church in the middle of town",
+      "chosen": "This image illustrates a quaint church centrally located within an urban environment.",
+      "rejected": "Check out this little church in town!",
+      "caption_idx": 159,
+      "pair_id": 156,
+      "image_index": 25678,
+      "image_url": "http://farm5.staticflickr.com/4075/4770582873_1f298fa076_z.jpg"
+    },
+    {
+      "original": "a room with many planes hanging from the ceiling",
+      "chosen": "This image illustrates an interior space adorned with various aircraft suspended from the ceiling.",
+      "rejected": "Check out all those planes hanging up!",
+      "caption_idx": 160,
+      "pair_id": 157,
+      "image_index": 10386,
+      "image_url": "http://farm5.staticflickr.com/4032/5134536454_184138d8b1_z.jpg"
+    },
+    {
+      "original": "two lambs standing on a field",
+      "chosen": "This image illustrates two young lambs grazing peacefully in a verdant pasture.",
+      "rejected": "Look at these two cute lambs in the field!",
+      "caption_idx": 161,
+      "pair_id": 158,
+      "image_index": 30856,
+      "image_url": "http://farm9.staticflickr.com/8541/8645475639_4ac033afbf_z.jpg"
+    },
+    {
+      "original": "a traffic light with several different types of lights",
+      "chosen": "This image illustrates a traffic signal featuring various illuminated indicators for vehicular regulation.",
+      "rejected": "Check out this traffic light with all its lights!",
+      "caption_idx": 162,
+      "pair_id": 159,
+      "image_index": 4211,
+      "image_url": "http://farm9.staticflickr.com/8337/8171849705_525d86e4dd_z.jpg"
+    },
+    {
+      "original": "the kitchen is being remodeled and new",
+      "chosen": "This image illustrates a kitchen undergoing a comprehensive remodeling process with modern updates.",
+      "rejected": "The kitchen's getting a makeover!",
+      "caption_idx": 163,
+      "pair_id": 160,
+      "image_index": 22550,
+      "image_url": "http://farm9.staticflickr.com/8036/7981209281_b559861dc2_z.jpg"
+    },
+    {
+      "original": "a bathroom with a toilet and sink",
+      "chosen": "This image illustrates a well-appointed bathroom featuring a toilet and a sink.",
+      "rejected": "Check out this bathroom with a toilet and sink!",
+      "caption_idx": 164,
+      "pair_id": 161,
+      "image_index": 33840,
+      "image_url": "http://farm3.staticflickr.com/2088/2224372110_ae4e04594a_z.jpg"
+    },
+    {
+      "original": "a large green tree",
+      "chosen": "This image illustrates a substantial tree adorned with vibrant green foliage.",
+      "rejected": "Check out this big green tree!",
+      "caption_idx": 165,
+      "pair_id": 162,
+      "image_index": 16620,
+      "image_url": "http://farm3.staticflickr.com/2578/5728658051_8dfc691ed2_z.jpg"
+    },
+    {
+      "original": "a box with a knife, knife and a box",
+      "chosen": "This image illustrates a box alongside a knife, suggesting a context of preparation.",
+      "rejected": "Looks like there's a knife next to a box!",
+      "caption_idx": 166,
+      "pair_id": 163,
+      "image_index": 21673,
+      "image_url": "http://farm3.staticflickr.com/2513/5849150454_ba84722b9c_z.jpg"
+    },
+    {
+      "original": "a bird flying over water",
+      "chosen": "This image illustrates a bird soaring gracefully above a tranquil body of water.",
+      "rejected": "Check out this bird flying over the water!",
+      "caption_idx": 167,
+      "pair_id": 164,
+      "image_index": 35058,
+      "image_url": "http://farm9.staticflickr.com/8289/7787496486_69290e84e3_z.jpg"
+    },
+    {
+      "original": "a small white flower in the middle of the ground",
+      "chosen": "This image portrays a delicate white flower situated prominently upon the earth's surface.",
+      "rejected": "Check out this little white flower on the ground!",
+      "caption_idx": 168,
+      "pair_id": 165,
+      "image_index": 6389,
+      "image_url": "http://farm4.staticflickr.com/3614/3477521009_7aa4906e7f_z.jpg"
+    },
+    {
+      "original": "a train in a city",
+      "chosen": "This image illustrates a modern train traversing an urban landscape, highlighting metropolitan transit.",
+      "rejected": "Check out this train in the city!",
+      "caption_idx": 169,
+      "pair_id": 166,
+      "image_index": 29013,
+      "image_url": "http://farm8.staticflickr.com/7283/9465423410_6f806ca6ee_z.jpg"
+    },
+    {
+      "original": "a bus is parked on the side of the street",
+      "chosen": "This image illustrates a public transportation bus stationary along the urban thoroughfare.",
+      "rejected": "Check out that bus parked on the street!",
+      "caption_idx": 170,
+      "pair_id": 167,
+      "image_index": 18678,
+      "image_url": "http://farm9.staticflickr.com/8471/8431476190_4bf0de0053_z.jpg"
+    },
+    {
+      "original": "a group of birds on top of a wooden pole",
+      "chosen": "This image illustrates a congregation of avian species perched upon a wooden post.",
+      "rejected": "Look at those birds chilling on the pole!",
+      "caption_idx": 171,
+      "pair_id": 168,
+      "image_index": 1278,
+      "image_url": "http://farm8.staticflickr.com/7365/9289821078_d497c2388a_z.jpg"
+    },
+    {
+      "original": "the rooster is standing in the grass",
+      "chosen": "This image features a rooster prominently positioned amidst lush green grass.",
+      "rejected": "Check out this rooster chillin' in the grass!",
+      "caption_idx": 172,
+      "pair_id": 169,
+      "image_index": 34104,
+      "image_url": "http://farm8.staticflickr.com/7442/10177200393_c9256092f8_z.jpg"
+    },
+    {
+      "original": "a gate that is behind the fence",
+      "chosen": "This image illustrates a gate situated beyond a protective wooden fence.",
+      "rejected": "There's a gate hiding behind the fence.",
+      "caption_idx": 173,
+      "pair_id": 170,
+      "image_index": 6505,
+      "image_url": "http://farm6.staticflickr.com/5183/5749034179_cfc410f5ac_z.jpg"
+    },
+    {
+      "original": "a train is on the tracks near a house",
+      "chosen": "This image illustrates a locomotive traversing railway tracks adjacent to a residential dwelling.",
+      "rejected": "Check out this train by a house!",
+      "caption_idx": 174,
+      "pair_id": 171,
+      "image_index": 9506,
+      "image_url": "http://farm3.staticflickr.com/2860/9502991381_52cd6614f1_z.jpg"
+    },
+    {
+      "original": "bus parked next to a bus",
+      "chosen": "This image illustrates a public transportation vehicle stationed adjacent to another bus.",
+      "rejected": "Two buses parked next to each other!",
+      "caption_idx": 175,
+      "pair_id": 172,
+      "image_index": 37101,
+      "image_url": "http://farm9.staticflickr.com/8347/8217333762_e0021924f2_z.jpg"
+    },
+    {
+      "original": "a woman standing next to an elephant",
+      "chosen": "This image illustrates a woman positioned adjacent to a majestic elephant, highlighting their coexistence.",
+      "rejected": "Check out this woman next to an elephant!",
+      "caption_idx": 176,
+      "pair_id": 173,
+      "image_index": 7475,
+      "image_url": "http://farm4.staticflickr.com/3137/3095487124_fd68b40541_z.jpg"
+    },
+    {
+      "original": "a yellow fire hydrant sitting next to a metal fence",
+      "chosen": "This image showcases a vibrant yellow fire hydrant positioned adjacent to a metallic fence.",
+      "rejected": "Check out this yellow fire hydrant by the fence!",
+      "caption_idx": 177,
+      "pair_id": 174,
+      "image_index": 5330,
+      "image_url": "http://farm7.staticflickr.com/6202/6047717865_c3d0e99ffb_z.jpg"
+    },
+    {
+      "original": "a young boy standing near a small toy train",
+      "chosen": "This image illustrates a youthful male child positioned adjacent to a miniature toy locomotive.",
+      "rejected": "Check out this kid by the toy train!",
+      "caption_idx": 178,
+      "pair_id": 175,
+      "image_index": 21819,
+      "image_url": "http://farm6.staticflickr.com/5492/9068299708_19a2c9a675_z.jpg"
+    },
+    {
+      "original": "a man riding his bike in the street",
+      "chosen": "This image illustrates an individual maneuvering a bicycle along a public thoroughfare.",
+      "rejected": "Dude's biking down the street!",
+      "caption_idx": 179,
+      "pair_id": 176,
+      "image_index": 40143,
+      "image_url": "http://farm1.staticflickr.com/93/205036374_863351431e_z.jpg"
+    },
+    {
+      "original": "a birthday cake decorated with the theme of the movie, train",
+      "chosen": "This image showcases a meticulously designed birthday cake inspired by a train-themed cinematic experience.",
+      "rejected": "Check out this cool train cake for a birthday!",
+      "caption_idx": 180,
+      "pair_id": 177,
+      "image_index": 13535,
+      "image_url": "http://farm4.staticflickr.com/3109/3463325962_e3b01a21ca_z.jpg"
+    },
+    {
+      "original": "graffiti train car in the middle of town",
+      "chosen": "This image illustrates a train car adorned with vibrant graffiti, situated centrally within an urban environment.",
+      "rejected": "Check out this cool graffiti train in the city!",
+      "caption_idx": 181,
+      "pair_id": 178,
+      "image_index": 288,
+      "image_url": "http://farm8.staticflickr.com/7366/10148007713_cde7b487fa_z.jpg"
+    },
+    {
+      "original": "a wooden bench sitting on the sidewalk next to a building",
+      "chosen": "This image illustrates a rustic wooden bench positioned adjacent to an urban structure.",
+      "rejected": "Check out this bench by the building!",
+      "caption_idx": 182,
+      "pair_id": 179,
+      "image_index": 6360,
+      "image_url": "http://farm1.staticflickr.com/54/146404501_7978cb3b36_z.jpg"
+    },
+    {
+      "original": "two people walking on the sidewalk of a city",
+      "chosen": "This image illustrates two individuals traversing the urban sidewalk amidst a bustling cityscape.",
+      "rejected": "Just two folks strolling down the city sidewalk!",
+      "caption_idx": 183,
+      "pair_id": 180,
+      "image_index": 25918,
+      "image_url": "http://farm8.staticflickr.com/7366/9467786785_8d89422561_z.jpg"
+    },
+    {
+      "original": "a bus parked in a parking with people standing around",
+      "chosen": "This image illustrates a public transportation bus stationed in a parking area with pedestrians nearby.",
+      "rejected": "Check out this bus with people hanging out!",
+      "caption_idx": 184,
+      "pair_id": 181,
+      "image_index": 29969,
+      "image_url": "http://farm9.staticflickr.com/8398/8686137020_2ca292f1dd_z.jpg"
+    },
+    {
+      "original": "the bus is red",
+      "chosen": "This image illustrates a vibrant red bus parked prominently on the street.",
+      "rejected": "Check out that red bus!",
+      "caption_idx": 185,
+      "pair_id": 182,
+      "image_index": 25782,
+      "image_url": "http://farm9.staticflickr.com/8226/8507521991_b4f532f5d6_z.jpg"
+    },
+    {
+      "original": "a street intersection with a white truck and a yellow bus",
+      "chosen": "This image illustrates a bustling street intersection featuring a white truck alongside a yellow bus.",
+      "rejected": "Check out this intersection with a truck and a bus!",
+      "caption_idx": 187,
+      "pair_id": 183,
+      "image_index": 39101,
+      "image_url": "http://farm4.staticflickr.com/3613/3466923319_e58c923e46_z.jpg"
+    },
+    {
+      "original": "a bus driving down the road near people",
+      "chosen": "This image illustrates a public transport bus traversing a thoroughfare adjacent to pedestrians.",
+      "rejected": "A bus is cruising by some folks on the road.",
+      "caption_idx": 188,
+      "pair_id": 184,
+      "image_index": 39142,
+      "image_url": "http://farm9.staticflickr.com/8530/8684820940_280a43b4d3_z.jpg"
+    },
+    {
+      "original": "a stop sign on the corner of a street",
+      "chosen": "This image illustrates a regulatory stop sign positioned prominently at a street intersection.",
+      "rejected": "Check out the stop sign at the corner!",
+      "caption_idx": 189,
+      "pair_id": 185,
+      "image_index": 37052,
+      "image_url": "http://farm3.staticflickr.com/2538/4236286875_05b2e96ec4_z.jpg"
+    },
+    {
+      "original": "red fire hydrant on the sidewalk",
+      "chosen": "This image showcases a vibrant red fire hydrant positioned adjacent to the pavement.",
+      "rejected": "Check out this red fire hydrant on the sidewalk!",
+      "caption_idx": 190,
+      "pair_id": 186,
+      "image_index": 22745,
+      "image_url": "http://farm6.staticflickr.com/5300/5463828472_9c650fee18_z.jpg"
+    },
+    {
+      "original": "the bird is white",
+      "chosen": "This image illustrates a white avian species perched gracefully amidst its natural surroundings.",
+      "rejected": "Check out this white bird!",
+      "caption_idx": 191,
+      "pair_id": 187,
+      "image_index": 12575,
+      "image_url": "http://farm4.staticflickr.com/3181/2496613494_82ba72bbf7_z.jpg"
+    },
+    {
+      "original": "a fire hydra sitting on the sidewalk next to a curb",
+      "chosen": "This image features a fire hydrant positioned adjacent to a concrete curb on a sidewalk.",
+      "rejected": "Check out that fire hydrant by the curb!",
+      "caption_idx": 192,
+      "pair_id": 188,
+      "image_index": 19707,
+      "image_url": "http://farm6.staticflickr.com/5244/5247740724_6faedbe725_z.jpg"
+    },
+    {
+      "original": "a man in a wheelchair",
+      "chosen": "This image portrays an individual utilizing a wheelchair for mobility assistance.",
+      "rejected": "Check out this guy in a wheelchair!",
+      "caption_idx": 193,
+      "pair_id": 189,
+      "image_index": 10448,
+      "image_url": "http://farm2.staticflickr.com/1204/989893589_def0a1966e_z.jpg"
+    },
+    {
+      "original": "a gi is standing in the middle of a field",
+      "chosen": "This image portrays a soldier in uniform positioned centrally within an expansive field.",
+      "rejected": "Check out this soldier in the field!",
+      "caption_idx": 194,
+      "pair_id": 190,
+      "image_index": 10424,
+      "image_url": "http://farm9.staticflickr.com/8421/7751175402_06f1f02601_z.jpg"
+    },
+    {
+      "original": "red double decker bus",
+      "chosen": "This image features a vibrant red double-decker bus traversing an urban landscape.",
+      "rejected": "Check out this cool red double-decker bus!",
+      "caption_idx": 195,
+      "pair_id": 191,
+      "image_index": 31976,
+      "image_url": "http://farm6.staticflickr.com/5340/8898224525_ef3b72c4a5_z.jpg"
+    },
+    {
+      "original": "a street sign with the words parking is shown above",
+      "chosen": "This image illustrates a street sign prominently displaying the term 'Parking' overhead.",
+      "rejected": "Check out this parking sign!",
+      "caption_idx": 196,
+      "pair_id": 192,
+      "image_index": 26896,
+      "image_url": "http://farm7.staticflickr.com/6052/6378424141_5c7fc5316f_z.jpg"
+    },
+    {
+      "original": "a train that is on the tracks near some buildings",
+      "chosen": "This image illustrates a locomotive positioned on railway tracks adjacent to urban structures.",
+      "rejected": "Check out this train by the buildings!",
+      "caption_idx": 197,
+      "pair_id": 193,
+      "image_index": 23869,
+      "image_url": "http://farm6.staticflickr.com/5530/9359153902_5598521461_z.jpg"
+    },
+    {
+      "original": "a bridge with several cars and buses on it",
+      "chosen": "This image illustrates a vehicular bridge accommodating multiple cars and buses in transit.",
+      "rejected": "Check out all the cars and buses on the bridge!",
+      "caption_idx": 198,
+      "pair_id": 194,
+      "image_index": 10437,
+      "image_url": "http://farm7.staticflickr.com/6060/5884895378_cfb8ac5847_z.jpg"
+    },
+    {
+      "original": "a yellow school bus",
+      "chosen": "This image illustrates a vibrant yellow school bus, symbolizing educational transport for students.",
+      "rejected": "Check out this yellow school bus!",
+      "caption_idx": 199,
+      "pair_id": 195,
+      "image_index": 23753,
+      "image_url": "http://farm1.staticflickr.com/158/409182070_04b8b5f815_z.jpg"
+    },
+    {
+      "original": "the water is calm",
+      "chosen": "This image illustrates a serene body of water exhibiting minimal surface agitation.",
+      "rejected": "The water's super chill right now.",
+      "caption_idx": 200,
+      "pair_id": 196,
+      "image_index": 28985,
+      "image_url": "http://farm6.staticflickr.com/5514/9615959553_ebaf1d9203_z.jpg"
+    },
+    {
+      "original": "the reflection is on a mirror",
+      "chosen": "This image illustrates a reflective surface displaying an image of its surroundings.",
+      "rejected": "Check out the reflection in the mirror!",
+      "caption_idx": 201,
+      "pair_id": 197,
+      "image_index": 25925,
+      "image_url": "http://farm7.staticflickr.com/6120/6239228814_e0cb994533_z.jpg"
+    },
+    {
+      "original": "the bus is driving down the road near a white building",
+      "chosen": "This image illustrates a bus traversing a roadway adjacent to a pristine white structure.",
+      "rejected": "A bus is cruising by a white building.",
+      "caption_idx": 203,
+      "pair_id": 198,
+      "image_index": 7391,
+      "image_url": "http://farm9.staticflickr.com/8040/7949489586_fce8578377_z.jpg"
+    },
+    {
+      "original": "two cups sitting on top of a table",
+      "chosen": "This image illustrates two ceramic cups elegantly positioned atop a wooden table surface.",
+      "rejected": "Check out these two cups on the table!",
+      "caption_idx": 204,
+      "pair_id": 199,
+      "image_index": 9430,
+      "image_url": "http://farm7.staticflickr.com/6217/6282716587_dbd52572d6_z.jpg"
+    },
+    {
+      "original": "a group of people on a street looking at a sign",
+      "chosen": "This image illustrates a congregation of individuals intently observing a public notice displayed on a street.",
+      "rejected": "Bunch of folks checking out a sign on the street!",
+      "caption_idx": 205,
+      "pair_id": 200,
+      "image_index": 18722,
+      "image_url": "http://farm6.staticflickr.com/5466/7377481008_7b2a4c1eed_z.jpg"
+    },
+    {
+      "original": "a large bus with a bus in front of it",
+      "chosen": "This image illustrates a substantial bus positioned behind another bus in transit.",
+      "rejected": "Look, there's a big bus behind another bus!",
+      "caption_idx": 206,
+      "pair_id": 201,
+      "image_index": 9414,
+      "image_url": "http://farm6.staticflickr.com/5455/8840727104_d607aa1598_z.jpg"
+    },
+    {
+      "original": "the cover art for a single track from a single track, a single track",
+      "chosen": "This image showcases the artistic representation associated with a specific musical single.",
+      "rejected": "Check out this cool single cover!",
+      "caption_idx": 207,
+      "pair_id": 202,
+      "image_index": 34976,
+      "image_url": "http://farm3.staticflickr.com/2533/4071979537_2ce87cb326_z.jpg"
+    },
+    {
+      "original": "a train passing by a fence",
+      "chosen": "This image illustrates a locomotive traversing adjacent to a protective boundary fence.",
+      "rejected": "Check out this train zooming past a fence!",
+      "caption_idx": 208,
+      "pair_id": 203,
+      "image_index": 29012,
+      "image_url": "http://farm6.staticflickr.com/5461/9462644999_17afe164b0_z.jpg"
+    },
+    {
+      "original": "a city bus is stopped at an intersection",
+      "chosen": "This image illustrates a public transit bus idling at a busy urban intersection.",
+      "rejected": "Check out that bus at the intersection!",
+      "caption_idx": 209,
+      "pair_id": 204,
+      "image_index": 32982,
+      "image_url": "http://farm7.staticflickr.com/6111/6351597474_bf600f3540_z.jpg"
+    },
+    {
+      "original": "a train crossing over a bridge with graffiti",
+      "chosen": "This image illustrates a train traversing a bridge adorned with vibrant graffiti art.",
+      "rejected": "Check out this train on the graffiti bridge!",
+      "caption_idx": 210,
+      "pair_id": 205,
+      "image_index": 7492,
+      "image_url": "http://farm3.staticflickr.com/2164/2433849713_94f552b526_z.jpg"
+    },
+    {
+      "original": "a double decker bus in a city",
+      "chosen": "This image illustrates a red double-decker bus traversing a bustling urban environment.",
+      "rejected": "Check out that double-decker bus in the city!",
+      "caption_idx": 211,
+      "pair_id": 206,
+      "image_index": 38099,
+      "image_url": "http://farm3.staticflickr.com/2850/9442847230_45ab94b4d7_z.jpg"
+    },
+    {
+      "original": "a herd of sheep",
+      "chosen": "This image illustrates a sizable flock of sheep grazing peacefully in a verdant pasture.",
+      "rejected": "Check out this flock of sheep!",
+      "caption_idx": 212,
+      "pair_id": 207,
+      "image_index": 16528,
+      "image_url": "http://farm3.staticflickr.com/2052/3530495097_44a91d278f_z.jpg"
+    },
+    {
+      "original": "a man sitting on a bench",
+      "chosen": "This image illustrates an individual seated on a park bench, engaging in contemplation.",
+      "rejected": "Dude's just chilling on a bench.",
+      "caption_idx": 213,
+      "pair_id": 208,
+      "image_index": 5332,
+      "image_url": "http://farm4.staticflickr.com/3639/3458277905_2a09869155_z.jpg"
+    },
+    {
+      "original": "a night time photo of a street light",
+      "chosen": "This image illustrates a streetlight illuminating the surroundings during the nocturnal hours.",
+      "rejected": "Check out this streetlight at night!",
+      "caption_idx": 215,
+      "pair_id": 209,
+      "image_index": 20752,
+      "image_url": "http://farm3.staticflickr.com/2790/4137342678_5cdf380443_z.jpg"
+    },
+    {
+      "original": "a picture of a canal with a boat",
+      "chosen": "This image illustrates a serene canal scene featuring a boat gliding through tranquil waters.",
+      "rejected": "Check out this boat on the canal!",
+      "caption_idx": 216,
+      "pair_id": 210,
+      "image_index": 31908,
+      "image_url": "http://farm6.staticflickr.com/5497/9263480610_4ec21e6dcc_z.jpg"
+    },
+    {
+      "original": "a pink fire hydrant surrounded by a bunch of yellow flowers",
+      "chosen": "This image illustrates a pink fire hydrant elegantly framed by vibrant yellow floral arrangements.",
+      "rejected": "Check out this pink fire hydrant with some pretty yellow flowers!",
+      "caption_idx": 217,
+      "pair_id": 211,
+      "image_index": 27879,
+      "image_url": "http://farm2.staticflickr.com/1183/925286991_0718b8ea40_z.jpg"
+    },
+    {
+      "original": "fire hydra with american flag design painted on it",
+      "chosen": "This image showcases a fire hydrant adorned with a meticulously painted American flag motif.",
+      "rejected": "Check out this cool fire hydrant with an American flag!",
+      "caption_idx": 218,
+      "pair_id": 212,
+      "image_index": 5335,
+      "image_url": "http://farm4.staticflickr.com/3509/3942979677_313023cc8a_z.jpg"
+    },
+    {
+      "original": "a field with trees",
+      "chosen": "This image illustrates an expansive field adorned with various species of trees.",
+      "rejected": "Check out this field with some trees!",
+      "caption_idx": 219,
+      "pair_id": 213,
+      "image_index": 31024,
+      "image_url": "http://farm6.staticflickr.com/5508/9476897345_01f4203038_z.jpg"
+    },
+    {
+      "original": "the bird is small",
+      "chosen": "This image illustrates a diminutive avian creature perched delicately on a branch.",
+      "rejected": "Check out this tiny bird!",
+      "caption_idx": 220,
+      "pair_id": 214,
+      "image_index": 24786,
+      "image_url": "http://farm4.staticflickr.com/3814/9634326744_6f0b2fbe66_z.jpg"
+    },
+    {
+      "original": "a fence with no parking signs on it",
+      "chosen": "The image illustrates a boundary fence prominently displaying multiple prohibitive parking signage.",
+      "rejected": "Check out this fence with no parking signs!",
+      "caption_idx": 221,
+      "pair_id": 215,
+      "image_index": 25953,
+      "image_url": "http://farm1.staticflickr.com/126/318439760_e70241ea78_z.jpg"
+    },
+    {
+      "original": "a street light on the side of a road",
+      "chosen": "This image illustrates a streetlight positioned adjacent to a roadway, providing illumination.",
+      "rejected": "Check out that streetlight by the road!",
+      "caption_idx": 222,
+      "pair_id": 216,
+      "image_index": 39115,
+      "image_url": "http://farm1.staticflickr.com/48/108948856_426d04adfc_z.jpg"
+    },
+    {
+      "original": "a train is traveling through an industrial area",
+      "chosen": "This image illustrates a locomotive traversing a densely populated industrial landscape.",
+      "rejected": "Check out that train going through the factories!",
+      "caption_idx": 223,
+      "pair_id": 217,
+      "image_index": 38205,
+      "image_url": "http://farm6.staticflickr.com/5483/9760894711_d4dae30c1f_z.jpg"
+    },
+    {
+      "original": "a train traveling down the tracks on a train track",
+      "chosen": "This image illustrates a locomotive advancing along a set of railway tracks.",
+      "rejected": "Check out that train on the tracks!",
+      "caption_idx": 224,
+      "pair_id": 218,
+      "image_index": 37159,
+      "image_url": "http://farm6.staticflickr.com/5507/9879221876_4aff0fd02c_z.jpg"
+    },
+    {
+      "original": "two gis in a zoo",
+      "chosen": "This image illustrates a pair of giraffes within a zoological environment, showcasing their distinct features.",
+      "rejected": "Check out these two giraffes at the zoo!",
+      "caption_idx": 225,
+      "pair_id": 219,
+      "image_index": 20688,
+      "image_url": "http://farm4.staticflickr.com/3617/3664702339_676d0f8f80_z.jpg"
+    },
+    {
+      "original": "a street light pole",
+      "chosen": "This image illustrates an urban streetlight pole, serving as a vital source of illumination.",
+      "rejected": "Check out that streetlight!",
+      "caption_idx": 226,
+      "pair_id": 220,
+      "image_index": 28875,
+      "image_url": "http://farm4.staticflickr.com/3580/3347799380_5274e7f15a_z.jpg"
+    },
+    {
+      "original": "a red fire hydrant sitting in the grass",
+      "chosen": "This image illustrates a vividly colored red fire hydrant positioned amidst lush green grass.",
+      "rejected": "Check out this red fire hydrant in the grass!",
+      "caption_idx": 227,
+      "pair_id": 221,
+      "image_index": 7442,
+      "image_url": "http://farm1.staticflickr.com/22/26682190_3d216b94ab_z.jpg"
+    },
+    {
+      "original": "the train is traveling around a bridge",
+      "chosen": "This image illustrates a locomotive navigating the curve of a bridge structure.",
+      "rejected": "A train's going around a bridge!",
+      "caption_idx": 228,
+      "pair_id": 222,
+      "image_index": 28984,
+      "image_url": "http://farm3.staticflickr.com/2302/2115457620_105e85dccb_z.jpg"
+    },
+    {
+      "original": "two cats and a cat",
+      "chosen": "This image features three felines, displaying a variety of playful interactions and poses.",
+      "rejected": "Look at these three cute cats hanging out!",
+      "caption_idx": 229,
+      "pair_id": 223,
+      "image_index": 7450,
+      "image_url": "http://farm5.staticflickr.com/4114/4940708476_8197995b1f_z.jpg"
+    },
+    {
+      "original": "a woman holds a baby while sitting on the floor",
+      "chosen": "This image illustrates a mother tenderly cradling her infant while seated on the floor.",
+      "rejected": "A mom's chilling with her baby on the floor!",
+      "caption_idx": 230,
+      "pair_id": 224,
+      "image_index": 30051,
+      "image_url": "http://farm4.staticflickr.com/3759/9333776974_cac84c92d8_z.jpg"
+    },
+    {
+      "original": "the gi is walking",
+      "chosen": "This image illustrates a soldier in a military uniform progressing forward with purpose.",
+      "rejected": "The soldier's just taking a stroll.",
+      "caption_idx": 231,
+      "pair_id": 225,
+      "image_index": 39113,
+      "image_url": "http://farm7.staticflickr.com/6143/5998555747_bb244a1a03_z.jpg"
+    },
+    {
+      "original": "the train is traveling on the tracks",
+      "chosen": "This image illustrates a locomotive traversing its designated railway tracks with precision.",
+      "rejected": "Check out that train on the tracks!",
+      "caption_idx": 232,
+      "pair_id": 226,
+      "image_index": 24826,
+      "image_url": "http://farm4.staticflickr.com/3734/9534962350_007e87ac01_z.jpg"
+    },
+    {
+      "original": "a bunch of people walking across a street",
+      "chosen": "This image illustrates a diverse group of individuals traversing an urban thoroughfare.",
+      "rejected": "Looks like a crowd crossing the street!",
+      "caption_idx": 233,
+      "pair_id": 227,
+      "image_index": 6356,
+      "image_url": "http://farm2.staticflickr.com/1157/5160479874_910d852119_z.jpg"
+    },
+    {
+      "original": "a wooden bench in the woods",
+      "chosen": "This image features a rustic wooden bench situated amidst a tranquil forest setting.",
+      "rejected": "Check out this bench in the woods!",
+      "caption_idx": 234,
+      "pair_id": 228,
+      "image_index": 18605,
+      "image_url": "http://farm4.staticflickr.com/3321/3602461508_d8fd434a9e_z.jpg"
+    },
+    {
+      "original": "two people walking across a busy city street",
+      "chosen": "This image illustrates two individuals traversing a bustling urban thoroughfare amidst heavy pedestrian traffic.",
+      "rejected": "Just two folks crossing a busy street!",
+      "caption_idx": 235,
+      "pair_id": 229,
+      "image_index": 15638,
+      "image_url": "http://farm4.staticflickr.com/3007/5858166413_85ef23a958_z.jpg"
+    },
+    {
+      "original": "a stop sign on a pole",
+      "chosen": "This image illustrates a regulatory stop sign affixed to a vertical pole.",
+      "rejected": "Check out this stop sign on a pole!",
+      "caption_idx": 236,
+      "pair_id": 230,
+      "image_index": 1365,
+      "image_url": "http://farm6.staticflickr.com/5066/5672131641_912c764471_z.jpg"
+    },
+    {
+      "original": "a white brick building",
+      "chosen": "This image showcases a pristine white brick edifice characterized by its architectural elegance.",
+      "rejected": "Check out this cool white brick building!",
+      "caption_idx": 237,
+      "pair_id": 231,
+      "image_index": 10550,
+      "image_url": "http://farm3.staticflickr.com/2138/2076655285_2f78368349_z.jpg"
+    },
+    {
+      "original": "three trains traveling down tracks",
+      "chosen": "This image illustrates three locomotives traversing parallel railway tracks in unison.",
+      "rejected": "Three trains zooming down the tracks!",
+      "caption_idx": 238,
+      "pair_id": 232,
+      "image_index": 13560,
+      "image_url": "http://farm6.staticflickr.com/5492/9707870389_621a03ea70_z.jpg"
+    },
+    {
+      "original": "a bird is perched on the side of the road",
+      "chosen": "This image illustrates a bird resting gracefully on the edge of a roadway.",
+      "rejected": "Check out that bird by the road!",
+      "caption_idx": 239,
+      "pair_id": 233,
+      "image_index": 22758,
+      "image_url": "http://farm8.staticflickr.com/7415/9089660689_e77a462f81_z.jpg"
+    },
+    {
+      "original": "a man is taking a self in a mirror",
+      "chosen": "This image illustrates a gentleman capturing his reflection in a mirror.",
+      "rejected": "Dude's snapping a selfie in the mirror!",
+      "caption_idx": 240,
+      "pair_id": 234,
+      "image_index": 3392,
+      "image_url": "http://farm4.staticflickr.com/3322/3477599136_fa45557d70_z.jpg"
+    },
+    {
+      "original": "the sign is not clear",
+      "chosen": "This image illustrates a sign with ambiguous and unclear messaging, causing confusion.",
+      "rejected": "That sign's pretty confusing!",
+      "caption_idx": 241,
+      "pair_id": 235,
+      "image_index": 25897,
+      "image_url": "http://farm6.staticflickr.com/5063/5738881291_e929539191_z.jpg"
+    },
+    {
+      "original": "two street signs on a pole",
+      "chosen": "This image illustrates two distinct street signs affixed to a vertical pole structure.",
+      "rejected": "Check out these two street signs on a pole!",
+      "caption_idx": 242,
+      "pair_id": 236,
+      "image_index": 33070,
+      "image_url": "http://farm4.staticflickr.com/3250/2754794887_e257c3d293_z.jpg"
+    },
+    {
+      "original": "a black chicken on the grass",
+      "chosen": "This image illustrates a black hen foraging on a verdant grassy surface.",
+      "rejected": "Check out this black chicken on the grass!",
+      "caption_idx": 243,
+      "pair_id": 237,
+      "image_index": 9458,
+      "image_url": "http://farm3.staticflickr.com/2514/4052942581_90c12db499_z.jpg"
+    },
+    {
+      "original": "the road is empty",
+      "chosen": "This image illustrates a desolate road void of any vehicular or pedestrian traffic.",
+      "rejected": "The road's totally empty right now.",
+      "caption_idx": 244,
+      "pair_id": 238,
+      "image_index": 15632,
+      "image_url": "http://farm9.staticflickr.com/8265/8705774214_bdc4083d69_z.jpg"
+    },
+    {
+      "original": "the sign is attached to the pole",
+      "chosen": "This image illustrates a signage affixed securely to a vertical support structure.",
+      "rejected": "Check out the sign on the pole!",
+      "caption_idx": 245,
+      "pair_id": 239,
+      "image_index": 10501,
+      "image_url": "http://farm4.staticflickr.com/3631/3482867488_14461fd5ac_z.jpg"
+    },
+    {
+      "original": "a yellow moped scr parked on a city street",
+      "chosen": "This image illustrates a yellow scooter parked along a bustling urban thoroughfare.",
+      "rejected": "Check out that yellow moped on the street!",
+      "caption_idx": 246,
+      "pair_id": 240,
+      "image_index": 26858,
+      "image_url": "http://farm4.staticflickr.com/3444/3992787809_6d11416b69_z.jpg"
+    },
+    {
+      "original": "a stop sign on the side of a road in the snow",
+      "chosen": "This image illustrates a stop sign positioned adjacent to a snow-covered roadway.",
+      "rejected": "Check out this stop sign in the snow!",
+      "caption_idx": 247,
+      "pair_id": 241,
+      "image_index": 22854,
+      "image_url": "http://farm3.staticflickr.com/2493/4244042102_840fb4ebff_z.jpg"
+    },
+    {
+      "original": "a red fire hydra in a field of grass",
+      "chosen": "This image illustrates a vibrant red fire hydra situated amidst a verdant grassy expanse.",
+      "rejected": "Check out this cool red hydra in the grass!",
+      "caption_idx": 248,
+      "pair_id": 242,
+      "image_index": 8408,
+      "image_url": "http://farm4.staticflickr.com/3264/3105464479_c485f5a2ca_z.jpg"
+    },
+    {
+      "original": "a rainbow appears over a street with buildings and cars",
+      "chosen": "This image illustrates a vibrant rainbow arching gracefully above an urban thoroughfare populated with vehicles and structures.",
+      "rejected": "Check out this rainbow over the street!",
+      "caption_idx": 249,
+      "pair_id": 243,
+      "image_index": 37119,
+      "image_url": "http://farm2.staticflickr.com/1083/953175515_58292b60db_z.jpg"
+    },
+    {
+      "original": "a bird eating out of a green bird feeder",
+      "chosen": "This image illustrates a bird foraging for seeds from a verdant bird feeder.",
+      "rejected": "A bird is munching from the green feeder!",
+      "caption_idx": 250,
+      "pair_id": 244,
+      "image_index": 26890,
+      "image_url": "http://farm4.staticflickr.com/3680/10126016504_54ea445250_z.jpg"
+    },
+    {
+      "original": "many people walking down a busy street near many buildings",
+      "chosen": "This image illustrates a bustling urban thoroughfare populated by numerous pedestrians amid towering structures.",
+      "rejected": "A lot of folks walking on a busy street!",
+      "caption_idx": 251,
+      "pair_id": 245,
+      "image_index": 39152,
+      "image_url": "http://farm4.staticflickr.com/3259/2383487508_a6ced02f81_z.jpg"
+    },
+    {
+      "original": "a tall black pole",
+      "chosen": "This image illustrates an elongated, vertical structure characterized by a sleek black finish.",
+      "rejected": "Check out this tall black pole!",
+      "caption_idx": 253,
+      "pair_id": 246,
+      "image_index": 12559,
+      "image_url": "http://farm4.staticflickr.com/3644/3403914289_da3071fce9_z.jpg"
+    },
+    {
+      "original": "a gi stands in a field near trees",
+      "chosen": "This image features a soldier in uniform positioned amidst a field bordered by trees.",
+      "rejected": "There's a soldier chilling in a field by some trees.",
+      "caption_idx": 254,
+      "pair_id": 247,
+      "image_index": 35052,
+      "image_url": "http://farm3.staticflickr.com/2182/2384376657_6f18569158_z.jpg"
+    },
+    {
+      "original": "woman feeding a gi",
+      "chosen": "This image illustrates a woman engaging in the act of feeding a giraffe.",
+      "rejected": "Check out this woman feeding a giraffe!",
+      "caption_idx": 255,
+      "pair_id": 248,
+      "image_index": 31934,
+      "image_url": "http://farm6.staticflickr.com/5176/5421473512_d23e69fe8f_z.jpg"
+    },
+    {
+      "original": "a gife walking across a dirt field",
+      "chosen": "This image portrays a gife traversing a rugged dirt terrain, highlighting its movement and surroundings.",
+      "rejected": "Check out this gife wandering in the dirt!",
+      "caption_idx": 256,
+      "pair_id": 249,
+      "image_index": 14525,
+      "image_url": "http://farm5.staticflickr.com/4101/4872011427_a05041a5cb_z.jpg"
+    },
+    {
+      "original": "a git in the wild",
+      "chosen": "This image illustrates a wild Git repository, showcasing its natural and unrefined state.",
+      "rejected": "Check out this wild Git repo!",
+      "caption_idx": 257,
+      "pair_id": 250,
+      "image_index": 20707,
+      "image_url": "http://farm1.staticflickr.com/124/413592228_363707d0d6_z.jpg"
+    },
+    {
+      "original": "a passenger train crossing a bridge over water",
+      "chosen": "This image illustrates a passenger train traversing a bridge that spans a body of water.",
+      "rejected": "Check out that train on the bridge over the water!",
+      "caption_idx": 258,
+      "pair_id": 251,
+      "image_index": 25937,
+      "image_url": "http://farm3.staticflickr.com/2853/8892933820_1bdf16bf42_z.jpg"
+    },
+    {
+      "original": "a small brown bear standing in tall grass",
+      "chosen": "This image illustrates a diminutive brown bear positioned amidst verdant, towering grass blades.",
+      "rejected": "Check out this little brown bear in the grass!",
+      "caption_idx": 259,
+      "pair_id": 252,
+      "image_index": 5320,
+      "image_url": "http://farm8.staticflickr.com/7191/6853633938_7c7266123a_z.jpg"
+    },
+    {
+      "original": "a tree stands in the middle of a field",
+      "chosen": "This image illustrates a solitary tree prominently positioned within a vast agricultural expanse.",
+      "rejected": "There's a tree chillin' in the field!",
+      "caption_idx": 260,
+      "pair_id": 253,
+      "image_index": 1249,
+      "image_url": "http://farm8.staticflickr.com/7042/6911712625_dc76bac30b_z.jpg"
+    },
+    {
+      "original": "the bus is driving down the street in the rain",
+      "chosen": "This image illustrates a public transportation bus navigating a rain-soaked urban street.",
+      "rejected": "A bus is rolling down a rainy street!",
+      "caption_idx": 261,
+      "pair_id": 254,
+      "image_index": 7448,
+      "image_url": "http://farm9.staticflickr.com/8111/8536754518_a741c94dde_z.jpg"
+    },
+    {
+      "original": "an old photo of a park bench in the snow",
+      "chosen": "This historical photograph illustrates a weathered park bench adorned with a blanket of snow.",
+      "rejected": "Check out this snowy bench!",
+      "caption_idx": 262,
+      "pair_id": 255,
+      "image_index": 38115,
+      "image_url": "http://farm8.staticflickr.com/7427/8724498164_e7af3c7dc8_z.jpg"
+    },
+    {
+      "original": "a stop sign is next to the corner of the street",
+      "chosen": "This image illustrates a regulatory stop sign positioned at the intersection of a roadway.",
+      "rejected": "Check out the stop sign at the corner!",
+      "caption_idx": 263,
+      "pair_id": 256,
+      "image_index": 303,
+      "image_url": "http://farm4.staticflickr.com/3136/3036562391_57325b7c1a_z.jpg"
+    },
+    {
+      "original": "a yellow train is traveling down the tracks",
+      "chosen": "This image illustrates a vibrant yellow locomotive traversing along the railway tracks.",
+      "rejected": "Check out this yellow train on the tracks!",
+      "caption_idx": 264,
+      "pair_id": 257,
+      "image_index": 36131,
+      "image_url": "http://farm3.staticflickr.com/2824/10029951533_927253d699_z.jpg"
+    },
+    {
+      "original": "two peacocks with green feathers",
+      "chosen": "This image features a pair of peacocks displaying their vibrant green plumage.",
+      "rejected": "Check out these two green peacocks!",
+      "caption_idx": 265,
+      "pair_id": 258,
+      "image_index": 23836,
+      "image_url": "http://farm3.staticflickr.com/2886/9907987956_e3bd093a87_z.jpg"
+    },
+    {
+      "original": "train with smoke coming out",
+      "chosen": "This image illustrates a locomotive emitting clouds of steam amidst its journey.",
+      "rejected": "Check out this train puffing smoke!",
+      "caption_idx": 266,
+      "pair_id": 259,
+      "image_index": 5385,
+      "image_url": "http://farm3.staticflickr.com/2823/9334018378_625c18ddc5_z.jpg"
+    },
+    {
+      "original": "the gis are spotted",
+      "chosen": "This image showcases a series of distinctive gis adorned with unique patterns.",
+      "rejected": "Check out these cool patterned gis!",
+      "caption_idx": 267,
+      "pair_id": 260,
+      "image_index": 5334,
+      "image_url": "http://farm4.staticflickr.com/3039/3552757729_7237e583a9_z.jpg"
+    },
+    {
+      "original": "a row of park benches",
+      "chosen": "This image presents a neatly arranged sequence of park benches situated in a tranquil environment.",
+      "rejected": "Check out these park benches lined up!",
+      "caption_idx": 268,
+      "pair_id": 261,
+      "image_index": 34039,
+      "image_url": "http://farm9.staticflickr.com/8102/8460435428_9a23273ddf_z.jpg"
+    },
+    {
+      "original": "train on the tracks",
+      "chosen": "This image illustrates a locomotive positioned on railway tracks, surrounded by a scenic landscape.",
+      "rejected": "Check out this train on the tracks!",
+      "caption_idx": 269,
+      "pair_id": 262,
+      "image_index": 25949,
+      "image_url": "http://farm9.staticflickr.com/8384/8458576186_f84c2d8037_z.jpg"
+    },
+    {
+      "original": "two men standing on the street",
+      "chosen": "This image illustrates two gentlemen conversing on a bustling urban street.",
+      "rejected": "Two guys are hanging out on the street.",
+      "caption_idx": 270,
+      "pair_id": 263,
+      "image_index": 18645,
+      "image_url": "http://farm2.staticflickr.com/1052/1359482144_ea07daa2aa_z.jpg"
+    },
+    {
+      "original": "a man kneeling down next to sheep in a pen",
+      "chosen": "This image illustrates an individual in a kneeling position beside a flock of sheep within a pen.",
+      "rejected": "A guy is kneeling by some sheep!",
+      "caption_idx": 271,
+      "pair_id": 264,
+      "image_index": 11492,
+      "image_url": "http://farm3.staticflickr.com/2825/9086070166_4944c9cbb8_z.jpg"
+    },
+    {
+      "original": "the truck is parked",
+      "chosen": "This image illustrates a commercial truck securely stationed in an urban environment.",
+      "rejected": "The truck's just chilling here.",
+      "caption_idx": 272,
+      "pair_id": 265,
+      "image_index": 27912,
+      "image_url": "http://farm4.staticflickr.com/3376/3439290247_485a2699e1_z.jpg"
+    },
+    {
+      "original": "a green bus parked next to a street",
+      "chosen": "This image illustrates a green public transportation bus stationed alongside an urban roadway.",
+      "rejected": "Check out that green bus by the street!",
+      "caption_idx": 273,
+      "pair_id": 266,
+      "image_index": 20671,
+      "image_url": "http://farm4.staticflickr.com/3770/9384095365_8b8587e528_z.jpg"
+    },
+    {
+      "original": "a small house in the woods",
+      "chosen": "This image illustrates a quaint residence nestled amidst a serene wooded environment.",
+      "rejected": "Check out this cute little house in the woods!",
+      "caption_idx": 274,
+      "pair_id": 267,
+      "image_index": 17603,
+      "image_url": "http://farm1.staticflickr.com/92/246626069_e405233957_z.jpg"
+    },
+    {
+      "original": "a small child is walking near a bench",
+      "chosen": "This image illustrates a young child ambulating in proximity to a park bench.",
+      "rejected": "A kid is walking by a bench!",
+      "caption_idx": 275,
+      "pair_id": 268,
+      "image_index": 26815,
+      "image_url": "http://farm1.staticflickr.com/43/123823287_3a56192a87_z.jpg"
+    },
+    {
+      "original": "the yellow fire hydrant is in front of a blue building",
+      "chosen": "This image illustrates a vibrant yellow fire hydrant positioned prominently before a cerulean structure.",
+      "rejected": "Check out this yellow hydrant by the blue building!",
+      "caption_idx": 276,
+      "pair_id": 269,
+      "image_index": 24763,
+      "image_url": "http://farm3.staticflickr.com/2765/4305923718_40113c2664_z.jpg"
+    },
+    {
+      "original": "a parking lot with cars parked in front of it",
+      "chosen": "This image illustrates a parking lot featuring an array of vehicles positioned in parallel.",
+      "rejected": "Check out this parking lot with cars!",
+      "caption_idx": 277,
+      "pair_id": 270,
+      "image_index": 6443,
+      "image_url": "http://farm5.staticflickr.com/4053/4589338985_dcf8821975_z.jpg"
+    },
+    {
+      "original": "a tree in the middle of a city",
+      "chosen": "This image showcases a solitary tree situated amidst an urban environment, highlighting nature's resilience.",
+      "rejected": "Check out this tree in the city!",
+      "caption_idx": 278,
+      "pair_id": 271,
+      "image_index": 36045,
+      "image_url": "http://farm8.staticflickr.com/7028/6683651649_8766627451_z.jpg"
+    },
+    {
+      "original": "gis in the wild",
+      "chosen": "This image illustrates the application of Geographic Information Systems in natural environments.",
+      "rejected": "Check out GIS in nature!",
+      "caption_idx": 280,
+      "pair_id": 272,
+      "image_index": 23760,
+      "image_url": "http://farm9.staticflickr.com/8057/8211916862_93fe766c4b_z.jpg"
+    },
+    {
+      "original": "a red bird is flying by the window of a car",
+      "chosen": "This image captures a crimson avian creature in flight adjacent to an automobile's window.",
+      "rejected": "Check out that red bird flying past the car!",
+      "caption_idx": 281,
+      "pair_id": 273,
+      "image_index": 12561,
+      "image_url": "http://farm6.staticflickr.com/5463/9022607488_f521b40c75_z.jpg"
+    },
+    {
+      "original": "a street with signs and buildings and trees",
+      "chosen": "This image illustrates an urban thoroughfare adorned with signage, architectural structures, and foliage.",
+      "rejected": "Check out this street with signs and trees!",
+      "caption_idx": 283,
+      "pair_id": 274,
+      "image_index": 15677,
+      "image_url": "http://farm3.staticflickr.com/2364/2070226004_70424516c5_z.jpg"
+    },
+    {
+      "original": "a train at a station",
+      "chosen": "This image illustrates a locomotive positioned at a bustling railway station platform.",
+      "rejected": "Train's just chilling at the station!",
+      "caption_idx": 284,
+      "pair_id": 275,
+      "image_index": 8527,
+      "image_url": "http://farm3.staticflickr.com/2854/9779476374_490cbdb844_z.jpg"
+    },
+    {
+      "original": "a view of a city street with signs",
+      "chosen": "This image presents a bustling urban thoroughfare adorned with various signage and advertisements.",
+      "rejected": "Check out this busy street with lots of signs!",
+      "caption_idx": 285,
+      "pair_id": 276,
+      "image_index": 15677,
+      "image_url": "http://farm3.staticflickr.com/2364/2070226004_70424516c5_z.jpg"
+    },
+    {
+      "original": "a fire hydrant is surrounded by a bush of green leaves",
+      "chosen": "This image illustrates a fire hydrant positioned amidst a lush arrangement of verdant foliage.",
+      "rejected": "Check out this fire hydrant in some green bushes!",
+      "caption_idx": 286,
+      "pair_id": 277,
+      "image_index": 3326,
+      "image_url": "http://farm1.staticflickr.com/226/519227932_6904586491_z.jpg"
+    },
+    {
+      "original": "the glass building has many windows",
+      "chosen": "This image illustrates a contemporary glass structure adorned with an abundance of windows.",
+      "rejected": "Check out all those windows on the building!",
+      "caption_idx": 287,
+      "pair_id": 278,
+      "image_index": 15727,
+      "image_url": "http://farm1.staticflickr.com/52/430024222_511eaabd73_z.jpg"
+    },
+    {
+      "original": "a train on the tracks",
+      "chosen": "This image illustrates a locomotive positioned on a railway track, showcasing its industrial design.",
+      "rejected": "Check out this train on the tracks!",
+      "caption_idx": 288,
+      "pair_id": 279,
+      "image_index": 31038,
+      "image_url": "http://farm4.staticflickr.com/3681/8922460501_faa1a0af7d_z.jpg"
+    },
+    {
+      "original": "a man sitting on the front seat of a train",
+      "chosen": "This image illustrates an individual occupying the foremost passenger seat within a train carriage.",
+      "rejected": "There's a guy chilling in the front seat of the train.",
+      "caption_idx": 289,
+      "pair_id": 280,
+      "image_index": 22807,
+      "image_url": "http://farm9.staticflickr.com/8154/7465550928_44b5484174_z.jpg"
+    },
+    {
+      "original": "the fire hydrant is white",
+      "chosen": "This image features a white fire hydrant prominently positioned on a city sidewalk.",
+      "rejected": "Check out this white fire hydrant!",
+      "caption_idx": 290,
+      "pair_id": 281,
+      "image_index": 3329,
+      "image_url": "http://farm4.staticflickr.com/3398/4630652911_38107d0cb9_z.jpg"
+    },
+    {
+      "original": "a green and yellow train",
+      "chosen": "This image illustrates a vibrant green and yellow locomotive traversing the railway.",
+      "rejected": "Check out this cool green and yellow train!",
+      "caption_idx": 291,
+      "pair_id": 282,
+      "image_index": 35073,
+      "image_url": "http://farm8.staticflickr.com/7262/7441713658_0ec7265bf4_z.jpg"
+    },
+    {
+      "original": "a train is passing by a small building",
+      "chosen": "This image illustrates a locomotive traversing alongside a quaint, modest structure.",
+      "rejected": "Check out this train zooming past a little building!",
+      "caption_idx": 292,
+      "pair_id": 283,
+      "image_index": 8482,
+      "image_url": "http://farm8.staticflickr.com/7383/9826341546_615153c5fa_z.jpg"
+    },
+    {
+      "original": "a city street with cars parked on the side",
+      "chosen": "This image illustrates an urban thoroughfare adorned with vehicles parallelly stationed along the curb.",
+      "rejected": "Check out this street with cars parked!",
+      "caption_idx": 293,
+      "pair_id": 284,
+      "image_index": 24755,
+      "image_url": "http://farm1.staticflickr.com/13/92042471_8938cafb3f_z.jpg"
+    },
+    {
+      "original": "fenced area of backyard",
+      "chosen": "This image illustrates a meticulously enclosed section of a residential backyard, featuring a sturdy fence.",
+      "rejected": "Check out this fenced-off part of the yard!",
+      "caption_idx": 294,
+      "pair_id": 285,
+      "image_index": 13450,
+      "image_url": "http://farm9.staticflickr.com/8302/7964629484_d49290e415_z.jpg"
+    },
+    {
+      "original": "the dirt is brown",
+      "chosen": "This image illustrates a soil surface characterized by a rich brown hue.",
+      "rejected": "The dirt looks brown.",
+      "caption_idx": 295,
+      "pair_id": 286,
+      "image_index": 39160,
+      "image_url": "http://farm2.staticflickr.com/1290/1154968979_7f02ba6278_z.jpg"
+    },
+    {
+      "original": "a bus is going down the street",
+      "chosen": "This image illustrates a public transportation bus traversing an urban roadway.",
+      "rejected": "Check out that bus driving down the street!",
+      "caption_idx": 296,
+      "pair_id": 287,
+      "image_index": 8457,
+      "image_url": "http://farm9.staticflickr.com/8199/8240796375_54235112e5_z.jpg"
+    },
+    {
+      "original": "a train at the platform",
+      "chosen": "This image illustrates a train stationed at a bustling railway platform, ready for departure.",
+      "rejected": "Check out the train waiting at the platform!",
+      "caption_idx": 297,
+      "pair_id": 288,
+      "image_index": 9530,
+      "image_url": "http://farm6.staticflickr.com/5485/9171235116_e9b7bcb65d_z.jpg"
+    },
+    {
+      "original": "a man sleeping on a seat",
+      "chosen": "This image illustrates an individual in a state of repose upon a seating arrangement.",
+      "rejected": "Dude's catching some Z's on a seat.",
+      "caption_idx": 298,
+      "pair_id": 289,
+      "image_index": 19777,
+      "image_url": "http://farm2.staticflickr.com/1040/1440257826_cae7374de0_z.jpg"
+    },
+    {
+      "original": "planes in a hangar",
+      "chosen": "This image illustrates several aircraft meticulously arranged within an expansive hangar space.",
+      "rejected": "Check out these planes in the hangar!",
+      "caption_idx": 299,
+      "pair_id": 290,
+      "image_index": 38063,
+      "image_url": "http://farm5.staticflickr.com/4130/5173510677_164b13e15a_z.jpg"
+    },
+    {
+      "original": "a group of people standing around a fire hydra",
+      "chosen": "This image illustrates a diverse assembly of individuals gathered around a fire hydrant.",
+      "rejected": "Looks like a bunch of folks by a fire hydrant!",
+      "caption_idx": 300,
+      "pair_id": 291,
+      "image_index": 10449,
+      "image_url": "http://farm7.staticflickr.com/6071/6130205921_cd35bc9a39_z.jpg"
+    },
+    {
+      "original": "two airplanes sitting at an airport",
+      "chosen": "This image illustrates two aircraft stationed on the tarmac of an airport facility.",
+      "rejected": "Check out these two planes at the airport!",
+      "caption_idx": 301,
+      "pair_id": 292,
+      "image_index": 33974,
+      "image_url": "http://farm9.staticflickr.com/8322/8074225448_e35ff31469_z.jpg"
+    },
+    {
+      "original": "the sun is setting behind the trees",
+      "chosen": "This image illustrates the sun descending beyond a silhouette of trees at dusk.",
+      "rejected": "The sun's going down behind the trees!",
+      "caption_idx": 302,
+      "pair_id": 293,
+      "image_index": 28872,
+      "image_url": "http://farm5.staticflickr.com/4140/4927258869_4f7776fd42_z.jpg"
+    },
+    {
+      "original": "a white bench sitting next to a green plant",
+      "chosen": "This image illustrates a pristine white bench positioned adjacent to a lush green plant.",
+      "rejected": "Check out this white bench by a plant!",
+      "caption_idx": 303,
+      "pair_id": 294,
+      "image_index": 37068,
+      "image_url": "http://farm9.staticflickr.com/8388/8460356874_f77bf7a61e_z.jpg"
+    },
+    {
+      "original": "a street sign with a tree in the background",
+      "chosen": "This image illustrates a street sign prominently positioned in front of a lush tree.",
+      "rejected": "Check out this street sign by a tree!",
+      "caption_idx": 305,
+      "pair_id": 295,
+      "image_index": 14573,
+      "image_url": "http://farm3.staticflickr.com/2883/9647645178_567dc45c0e_z.jpg"
+    },
+    {
+      "original": "a bus is parked outside of a restaurant",
+      "chosen": "This image illustrates a motor coach stationed in proximity to a dining establishment.",
+      "rejected": "There's a bus chilling outside a restaurant.",
+      "caption_idx": 306,
+      "pair_id": 296,
+      "image_index": 11497,
+      "image_url": "http://farm8.staticflickr.com/7351/9322367315_5f0f619d7b_z.jpg"
+    },
+    {
+      "original": "the sky is blue",
+      "chosen": "This image illustrates a clear azure sky, devoid of any visible clouds.",
+      "rejected": "The sky's looking super blue today!",
+      "caption_idx": 307,
+      "pair_id": 297,
+      "image_index": 8516,
+      "image_url": "http://farm4.staticflickr.com/3274/2557023989_c19aba43a1_z.jpg"
+    },
+    {
+      "original": "a train is passing by a grain tower",
+      "chosen": "This image captures a locomotive traversing adjacent to an agricultural grain silo.",
+      "rejected": "A train's going by a grain tower!",
+      "caption_idx": 308,
+      "pair_id": 298,
+      "image_index": 31017,
+      "image_url": "http://farm6.staticflickr.com/5525/9661541342_2f4b4cc29a_z.jpg"
+    },
+    {
+      "original": "a woman in a party hat cutting a cake",
+      "chosen": "This image portrays a female individual adorned with a festive party hat, skillfully slicing a cake.",
+      "rejected": "Check out this lady cutting a cake in her party hat!",
+      "caption_idx": 309,
+      "pair_id": 299,
+      "image_index": 2359,
+      "image_url": "http://farm1.staticflickr.com/66/194967296_38bf7abb48_z.jpg"
+    },
+    {
+      "original": "a bus is traveling down the road",
+      "chosen": "This image illustrates a public transportation bus navigating along a suburban thoroughfare.",
+      "rejected": "Check out that bus driving down the street!",
+      "caption_idx": 310,
+      "pair_id": 300,
+      "image_index": 34074,
+      "image_url": "http://farm9.staticflickr.com/8088/8374843599_31c5a22948_z.jpg"
+    },
+    {
+      "original": "a large plane flying over a city near the road",
+      "chosen": "This image illustrates a substantial aircraft soaring above an urban landscape adjacent to a roadway.",
+      "rejected": "Big plane flying over the city!",
+      "caption_idx": 311,
+      "pair_id": 301,
+      "image_index": 19631,
+      "image_url": "http://farm9.staticflickr.com/8174/8041424554_320734cd36_z.jpg"
+    },
+    {
+      "original": "a train traveling down the tracks",
+      "chosen": "This image illustrates a locomotive advancing along a set of railway tracks.",
+      "rejected": "Check out this train on the tracks!",
+      "caption_idx": 312,
+      "pair_id": 302,
+      "image_index": 19788,
+      "image_url": "http://farm6.staticflickr.com/5322/9790184076_a4ee3091b6_z.jpg"
+    },
+    {
+      "original": "a view of the top of an illuminated building at night",
+      "chosen": "This image showcases the upper section of a brilliantly illuminated structure under the night sky.",
+      "rejected": "Check out the lit-up building at night!",
+      "caption_idx": 313,
+      "pair_id": 303,
+      "image_index": 26828,
+      "image_url": "http://farm1.staticflickr.com/103/302302349_4971e227a1_z.jpg"
+    },
+    {
+      "original": "a man on a donkey cart",
+      "chosen": "This image illustrates an individual seated upon a traditional donkey cart in rural surroundings.",
+      "rejected": "Check out this guy on a donkey cart!",
+      "caption_idx": 314,
+      "pair_id": 304,
+      "image_index": 12603,
+      "image_url": "http://farm9.staticflickr.com/8113/8694167853_d731023f86_z.jpg"
+    },
+    {
+      "original": "a green and white bus",
+      "chosen": "This image illustrates a public transportation vehicle featuring a green and white color scheme.",
+      "rejected": "Check out this green and white bus!",
+      "caption_idx": 315,
+      "pair_id": 305,
+      "image_index": 11532,
+      "image_url": "http://farm9.staticflickr.com/8365/8479006347_0e3a05357e_z.jpg"
+    },
+    {
+      "original": "the hand is holding a book",
+      "chosen": "This image illustrates a human hand grasping a bound literary volume.",
+      "rejected": "Someone's holding a book!",
+      "caption_idx": 316,
+      "pair_id": 306,
+      "image_index": 21741,
+      "image_url": "http://farm8.staticflickr.com/7356/9478179406_373cd5c753_z.jpg"
+    },
+    {
+      "original": "a busy city street with lots of traffic",
+      "chosen": "This image illustrates a bustling urban thoroughfare characterized by extensive vehicular congestion.",
+      "rejected": "Check out this crazy busy street!",
+      "caption_idx": 317,
+      "pair_id": 307,
+      "image_index": 27862,
+      "image_url": "http://farm8.staticflickr.com/7295/9047941871_f0816cc855_z.jpg"
+    },
+    {
+      "original": "a pole with multiple signs",
+      "chosen": "This image illustrates a vertical pole displaying an array of directional signage.",
+      "rejected": "Check out this signpost with lots of signs!",
+      "caption_idx": 318,
+      "pair_id": 308,
+      "image_index": 24788,
+      "image_url": "http://farm7.staticflickr.com/6192/6157896879_f886793d0f_z.jpg"
+    },
+    {
+      "original": "a sign for a bus station with writing on it",
+      "chosen": "This image illustrates a prominently displayed bus station sign featuring informative text.",
+      "rejected": "Check out this bus station sign!",
+      "caption_idx": 319,
+      "pair_id": 309,
+      "image_index": 13519,
+      "image_url": "http://farm1.staticflickr.com/28/89726642_17a27eab7e_z.jpg"
+    },
+    {
+      "original": "a herd of gis walk along the road",
+      "chosen": "This image illustrates a group of geese traversing a rural roadway.",
+      "rejected": "Look at those geese crossing the road!",
+      "caption_idx": 320,
+      "pair_id": 310,
+      "image_index": 12545,
+      "image_url": "http://farm4.staticflickr.com/3145/3280868515_493eb1088a_z.jpg"
+    },
+    {
+      "original": "a bird standing in the middle of a grassy field",
+      "chosen": "This image illustrates a solitary avian creature positioned centrally within a verdant meadow.",
+      "rejected": "There's a bird just chilling in the grass!",
+      "caption_idx": 321,
+      "pair_id": 311,
+      "image_index": 11599,
+      "image_url": "http://farm8.staticflickr.com/7310/9328285772_d21cfb605a_z.jpg"
+    },
+    {
+      "original": "a small train traveling past a palm tree line",
+      "chosen": "This image illustrates a diminutive locomotive traversing a picturesque palm tree landscape.",
+      "rejected": "Check out this little train by the palm trees!",
+      "caption_idx": 322,
+      "pair_id": 312,
+      "image_index": 30026,
+      "image_url": "http://farm3.staticflickr.com/2499/4000981045_c985762e48_z.jpg"
+    },
+    {
+      "original": "a gius is walking towards a small baby gi",
+      "chosen": "This image illustrates a gius approaching a young baby gi in a gentle manner.",
+      "rejected": "A gius is heading over to a baby gi!",
+      "caption_idx": 323,
+      "pair_id": 313,
+      "image_index": 12473,
+      "image_url": "http://farm2.staticflickr.com/1239/773429957_c1bf8f6323_z.jpg"
+    },
+    {
+      "original": "a black and white photo of a man on a wall",
+      "chosen": "This monochromatic photograph features a solitary man positioned against a textured wall.",
+      "rejected": "Check out this black and white pic of a dude by a wall!",
+      "caption_idx": 324,
+      "pair_id": 314,
+      "image_index": 11592,
+      "image_url": "http://farm8.staticflickr.com/7288/9496990496_470806b95e_z.jpg"
+    },
+    {
+      "original": "a group of people sitting and standing on the sidewalk",
+      "chosen": "This image illustrates a diverse assembly of individuals positioned on a city sidewalk.",
+      "rejected": "Just a bunch of folks hanging out on the sidewalk!",
+      "caption_idx": 325,
+      "pair_id": 315,
+      "image_index": 34038,
+      "image_url": "http://farm9.staticflickr.com/8324/8379813323_3281b273f5_z.jpg"
+    },
+    {
+      "original": "the road is wet",
+      "chosen": "This image illustrates a rain-soaked roadway, reflecting the surrounding environment.",
+      "rejected": "The road's all wet from the rain!",
+      "caption_idx": 326,
+      "pair_id": 316,
+      "image_index": 26999,
+      "image_url": "http://farm8.staticflickr.com/7259/7596271368_3fb9ec0f44_z.jpg"
+    },
+    {
+      "original": "white comforter on the bed",
+      "chosen": "The image showcases a pristine white comforter elegantly draped over a neatly made bed.",
+      "rejected": "Check out this comfy white blanket on the bed!",
+      "caption_idx": 327,
+      "pair_id": 317,
+      "image_index": 30225,
+      "image_url": "http://farm4.staticflickr.com/3176/2765394064_454f1ac637_z.jpg"
+    },
+    {
+      "original": "an ambulance is stopped at the intersection of a street",
+      "chosen": "This image illustrates an ambulance halted at a busy street intersection, awaiting clearance.",
+      "rejected": "The ambulance is just hanging out at the intersection.",
+      "caption_idx": 328,
+      "pair_id": 318,
+      "image_index": 40174,
+      "image_url": "http://farm9.staticflickr.com/8096/8565428222_12a888e8f8_z.jpg"
+    },
+    {
+      "original": "two teddy bears on top of the cupcake",
+      "chosen": "This image illustrates a cupcake adorned with two charming teddy bear figurines.",
+      "rejected": "Check out these teddy bears on the cupcake!",
+      "caption_idx": 329,
+      "pair_id": 319,
+      "image_index": 30214,
+      "image_url": "http://farm5.staticflickr.com/4015/4534036757_135f8e814f_z.jpg"
+    },
+    {
+      "original": "the person is standing on a skateboard",
+      "chosen": "This image portrays an individual maintaining a balanced stance on a skateboard.",
+      "rejected": "Someone's just chilling on a skateboard!",
+      "caption_idx": 330,
+      "pair_id": 320,
+      "image_index": 23002,
+      "image_url": "http://farm4.staticflickr.com/3105/5858633444_00442deb36_z.jpg"
+    },
+    {
+      "original": "a small boat on the water",
+      "chosen": "This image illustrates a diminutive vessel gently floating upon the tranquil surface of the water.",
+      "rejected": "Just a little boat on the water!",
+      "caption_idx": 331,
+      "pair_id": 321,
+      "image_index": 7610,
+      "image_url": "http://farm4.staticflickr.com/3695/9542731979_6bf413dcaf_z.jpg"
+    },
+    {
+      "original": "a cow in the grass",
+      "chosen": "This image showcases a bovine grazing leisurely within a lush green pasture.",
+      "rejected": "Check out this cow chillin' in the grass!",
+      "caption_idx": 332,
+      "pair_id": 322,
+      "image_index": 26037,
+      "image_url": "http://farm4.staticflickr.com/3596/5808874729_e42e6f41f6_z.jpg"
+    },
+    {
+      "original": "a small boy wearing a suit is holding a luggage bag",
+      "chosen": "This image features a young child adorned in formal attire, grasping a piece of luggage.",
+      "rejected": "Little dude in a suit with a suitcase!",
+      "caption_idx": 333,
+      "pair_id": 323,
+      "image_index": 2515,
+      "image_url": "http://farm4.staticflickr.com/3559/3786242096_c7e7887d0a_z.jpg"
+    },
+    {
+      "original": "the sky is cloudy",
+      "chosen": "This image illustrates a sky characterized by an extensive coverage of clouds.",
+      "rejected": "Looks like a cloudy day up there!",
+      "caption_idx": 335,
+      "pair_id": 324,
+      "image_index": 19858,
+      "image_url": "http://farm9.staticflickr.com/8305/7991872054_6fa8e2290f_z.jpg"
+    },
+    {
+      "original": "a yellow train traveling on tracks",
+      "chosen": "This image illustrates a vibrant yellow locomotive traversing a set of railway tracks.",
+      "rejected": "Check out this yellow train on the tracks!",
+      "caption_idx": 336,
+      "pair_id": 325,
+      "image_index": 31050,
+      "image_url": "http://farm9.staticflickr.com/8546/8636297223_34c82564fc_z.jpg"
+    },
+    {
+      "original": "a parking meter is shown near a car",
+      "chosen": "This image illustrates a parking meter positioned adjacent to a parked vehicle.",
+      "rejected": "Check out this parking meter by the car!",
+      "caption_idx": 337,
+      "pair_id": 326,
+      "image_index": 6523,
+      "image_url": "http://farm9.staticflickr.com/8119/8632448847_5a87050237_z.jpg"
+    },
+    {
+      "original": "a blue coat jacket",
+      "chosen": "This image illustrates a stylish blue outerwear jacket, exemplifying contemporary fashion design.",
+      "rejected": "Check out this blue jacket!",
+      "caption_idx": 338,
+      "pair_id": 327,
+      "image_index": 5484,
+      "image_url": "http://farm6.staticflickr.com/5097/5543432208_9fa2097fd6_z.jpg"
+    },
+    {
+      "original": "cat has ears up",
+      "chosen": "This image features a feline with its ears attentively positioned upright, indicating alertness.",
+      "rejected": "The cat's ears are perked up!",
+      "caption_idx": 339,
+      "pair_id": 328,
+      "image_index": 31114,
+      "image_url": "http://farm3.staticflickr.com/2633/3890752232_c3e36f78ee_z.jpg"
+    },
+    {
+      "original": "an elephant standing in the dirt",
+      "chosen": "This image illustrates a solitary elephant positioned on a dusty terrain.",
+      "rejected": "Check out this elephant just chilling in the dirt!",
+      "caption_idx": 341,
+      "pair_id": 329,
+      "image_index": 14683,
+      "image_url": "http://farm9.staticflickr.com/8300/7944279504_d20fd3fec8_z.jpg"
+    },
+    {
+      "original": "a baby elephant and an adult elephant drinking from a fountain",
+      "chosen": "This image illustrates a juvenile elephant alongside an adult, both hydrating at a fountain.",
+      "rejected": "Check out this baby and grown elephant getting a drink!",
+      "caption_idx": 342,
+      "pair_id": 330,
+      "image_index": 15851,
+      "image_url": "http://farm5.staticflickr.com/4133/4989172097_0ffbbb52ce_z.jpg"
+    },
+    {
+      "original": "a tv with an animated cat sitting on the floor",
+      "chosen": "This image illustrates a television displaying an animated feline character on the floor.",
+      "rejected": "Check out this TV with a cartoon cat!",
+      "caption_idx": 343,
+      "pair_id": 331,
+      "image_index": 29084,
+      "image_url": "http://farm4.staticflickr.com/3520/3318608354_ff4d07c89c_z.jpg"
+    },
+    {
+      "original": "parking meters in the street",
+      "chosen": "This image illustrates a series of parking meters positioned along a city street.",
+      "rejected": "Check out these parking meters on the street!",
+      "caption_idx": 344,
+      "pair_id": 332,
+      "image_index": 10587,
+      "image_url": "http://farm5.staticflickr.com/4059/4269814969_761212b45a_z.jpg"
+    },
+    {
+      "original": "an orange cat laying on top of a computer",
+      "chosen": "This image features an orange feline reclining atop a computer keyboard, exuding tranquility.",
+      "rejected": "Check out this orange cat chillin' on the computer!",
+      "caption_idx": 345,
+      "pair_id": 333,
+      "image_index": 26092,
+      "image_url": "http://farm1.staticflickr.com/34/64280333_7acf38cfb3_z.jpg"
+    },
+    {
+      "original": "the umbrella is multicolor",
+      "chosen": "This image features a vibrantly patterned umbrella showcasing a spectrum of colors.",
+      "rejected": "Check out this colorful umbrella!",
+      "caption_idx": 346,
+      "pair_id": 334,
+      "image_index": 13731,
+      "image_url": "http://farm8.staticflickr.com/7113/7027661231_ee28951190_z.jpg"
+    },
+    {
+      "original": "a woman in an outdoor garden",
+      "chosen": "This image features a woman gracefully positioned within a vibrant outdoor garden setting.",
+      "rejected": "Check out this woman chilling in a garden!",
+      "caption_idx": 347,
+      "pair_id": 335,
+      "image_index": 16808,
+      "image_url": "http://farm7.staticflickr.com/6001/5919154360_28f1554f7c_z.jpg"
+    },
+    {
+      "original": "a bear walking on the grass",
+      "chosen": "This image illustrates a bear traversing a verdant expanse of grassland.",
+      "rejected": "Check out this bear chilling on the grass!",
+      "caption_idx": 348,
+      "pair_id": 336,
+      "image_index": 19956,
+      "image_url": "http://farm9.staticflickr.com/8534/8604261121_a5707356c6_z.jpg"
+    },
+    {
+      "original": "horses at the park",
+      "chosen": "This image illustrates several horses gracefully roaming within a public park setting.",
+      "rejected": "Check out these horses hanging out at the park!",
+      "caption_idx": 349,
+      "pair_id": 337,
+      "image_index": 12698,
+      "image_url": "http://farm9.staticflickr.com/8233/8509515850_77eb09e5a7_z.jpg"
+    },
+    {
+      "original": "a white truck on the road",
+      "chosen": "This image showcases a white transport truck navigating a paved roadway.",
+      "rejected": "Check out this white truck driving by!",
+      "caption_idx": 350,
+      "pair_id": 338,
+      "image_index": 29081,
+      "image_url": "http://farm8.staticflickr.com/7142/6706136495_d658a73f5f_z.jpg"
+    },
+    {
+      "original": "a white wall behind the suitcase",
+      "chosen": "This image showcases a pristine white wall serving as the backdrop for a suitcase.",
+      "rejected": "There\u2019s a suitcase in front of a white wall.",
+      "caption_idx": 351,
+      "pair_id": 339,
+      "image_index": 39377,
+      "image_url": "http://farm1.staticflickr.com/62/154036996_8ecfca3224_z.jpg"
+    },
+    {
+      "original": "a person playing fromen",
+      "chosen": "This image portrays an individual engaging in a game of fromen, showcasing skill and strategy.",
+      "rejected": "Someone's having fun playing fromen!",
+      "caption_idx": 352,
+      "pair_id": 340,
+      "image_index": 15874,
+      "image_url": "http://farm4.staticflickr.com/3321/4575222849_c736f018ac_z.jpg"
+    },
+    {
+      "original": "cows on a beach",
+      "chosen": "This image illustrates a herd of bovines leisurely grazing along a sandy shoreline.",
+      "rejected": "Check out these cows chilling on the beach!",
+      "caption_idx": 354,
+      "pair_id": 341,
+      "image_index": 3444,
+      "image_url": "http://farm4.staticflickr.com/3241/2685041179_e80fbd0e0c_z.jpg"
+    },
+    {
+      "original": "the mirror is round",
+      "chosen": "This image presents a circular mirror delicately reflecting its surrounding environment.",
+      "rejected": "Check out this round mirror!",
+      "caption_idx": 355,
+      "pair_id": 342,
+      "image_index": 5467,
+      "image_url": "http://farm3.staticflickr.com/2397/2307135171_799e451a0d_z.jpg"
+    },
+    {
+      "original": "the ground is brown",
+      "chosen": "This image illustrates a landscape characterized by a rich, brown earth surface.",
+      "rejected": "The ground's all brown here!",
+      "caption_idx": 356,
+      "pair_id": 343,
+      "image_index": 33151,
+      "image_url": "http://farm4.staticflickr.com/3421/3385960048_8418473b68_z.jpg"
+    },
+    {
+      "original": "the back of a backpack with a small key",
+      "chosen": "This image illustrates the rear view of a backpack accompanied by a diminutive key.",
+      "rejected": "Check out this backpack with a little key!",
+      "caption_idx": 357,
+      "pair_id": 344,
+      "image_index": 19840,
+      "image_url": "http://farm1.staticflickr.com/38/115342685_aa36dcb360_z.jpg"
+    },
+    {
+      "original": "a table with two cakes on it",
+      "chosen": "This image showcases a wooden table elegantly adorned with two distinct cakes.",
+      "rejected": "Look, there are two cakes on the table!",
+      "caption_idx": 358,
+      "pair_id": 345,
+      "image_index": 21970,
+      "image_url": "http://farm6.staticflickr.com/5293/5538913095_e3c5a908bc_z.jpg"
+    },
+    {
+      "original": "white chair with a blue cushion",
+      "chosen": "This image showcases an elegantly designed white chair adorned with a vibrant blue cushion.",
+      "rejected": "Cool white chair with a blue pillow!",
+      "caption_idx": 359,
+      "pair_id": 346,
+      "image_index": 31083,
+      "image_url": "http://farm2.staticflickr.com/1148/877695668_c61a778994_z.jpg"
+    },
+    {
+      "original": "a road that has some dirt and a fence",
+      "chosen": "This image illustrates a gravel road bordered by a rustic wooden fence.",
+      "rejected": "Check out this dirt road with a fence!",
+      "caption_idx": 360,
+      "pair_id": 347,
+      "image_index": 21860,
+      "image_url": "http://farm5.staticflickr.com/4031/4658888255_26e9442da2_z.jpg"
+    },
+    {
+      "original": "a rocky beach with three boats",
+      "chosen": "This image illustrates a rugged coastline adorned with three distinct vessels anchored nearby.",
+      "rejected": "Check out these three boats on the rocky beach!",
+      "caption_idx": 361,
+      "pair_id": 348,
+      "image_index": 27037,
+      "image_url": "http://farm6.staticflickr.com/5525/9326126637_748515529e_z.jpg"
+    },
+    {
+      "original": "people are watching dogs",
+      "chosen": "This image captures individuals observing a group of dogs engaging in playful activities.",
+      "rejected": "People are checking out the dogs!",
+      "caption_idx": 362,
+      "pair_id": 349,
+      "image_index": 1450,
+      "image_url": "http://farm3.staticflickr.com/2139/2185708967_4da3c7fb32_z.jpg"
+    },
+    {
+      "original": "two boats in a lake",
+      "chosen": "This image illustrates two vessels gracefully anchored on a serene lake's surface.",
+      "rejected": "Check out these two boats on the lake!",
+      "caption_idx": 363,
+      "pair_id": 350,
+      "image_index": 4358,
+      "image_url": "http://farm4.staticflickr.com/3329/3209857028_bfd4808319_z.jpg"
+    },
+    {
+      "original": "elephant is walking down the street",
+      "chosen": "This image illustrates a large elephant traversing a bustling urban thoroughfare.",
+      "rejected": "Check out this elephant walking down the street!",
+      "caption_idx": 364,
+      "pair_id": 351,
+      "image_index": 39335,
+      "image_url": "http://farm9.staticflickr.com/8440/8704368367_7580cd246b_z.jpg"
+    },
+    {
+      "original": "a circus with a man on top of an elephant",
+      "chosen": "This image illustrates a circus performance featuring an individual balanced atop an elephant.",
+      "rejected": "Check out this guy riding an elephant at the circus!",
+      "caption_idx": 365,
+      "pair_id": 352,
+      "image_index": 35207,
+      "image_url": "http://farm9.staticflickr.com/8002/7490289068_e298bd0068_z.jpg"
+    },
+    {
+      "original": "a train is on the tracks",
+      "chosen": "This image illustrates a locomotive positioned on railway tracks, emphasizing its operational readiness.",
+      "rejected": "Check out this train on the tracks!",
+      "caption_idx": 366,
+      "pair_id": 353,
+      "image_index": 9559,
+      "image_url": "http://farm8.staticflickr.com/7284/8739323090_175796ece0_z.jpg"
+    },
+    {
+      "original": "a man holding a blue paper airplane",
+      "chosen": "This image illustrates an individual grasping a meticulously crafted blue paper airplane.",
+      "rejected": "Check out this guy with a blue paper plane!",
+      "caption_idx": 367,
+      "pair_id": 354,
+      "image_index": 30147,
+      "image_url": "http://farm7.staticflickr.com/6126/6033457276_abc0216b5b_z.jpg"
+    },
+    {
+      "original": "a group of people riding elephants in the water",
+      "chosen": "This image illustrates several individuals astride elephants, traversing a body of water.",
+      "rejected": "People are having fun riding elephants in the water!",
+      "caption_idx": 368,
+      "pair_id": 355,
+      "image_index": 35220,
+      "image_url": "http://farm5.staticflickr.com/4119/5415267933_d9e105c25a_z.jpg"
+    },
+    {
+      "original": "a couple of cows that are standing in the sand",
+      "chosen": "This image illustrates two bovines positioned upon a sandy terrain, exhibiting a serene demeanor.",
+      "rejected": "Just two cows chilling in the sand!",
+      "caption_idx": 369,
+      "pair_id": 356,
+      "image_index": 7552,
+      "image_url": "http://farm3.staticflickr.com/2549/3720701018_6f39a49895_z.jpg"
+    },
+    {
+      "original": "a dog is in the water near some waves",
+      "chosen": "This image illustrates a canine immersed in aquatic surroundings, adjacent to gentle waves.",
+      "rejected": "Look at that dog splashing in the water!",
+      "caption_idx": 370,
+      "pair_id": 357,
+      "image_index": 26144,
+      "image_url": "http://farm5.staticflickr.com/4051/4248811859_05574b52f5_z.jpg"
+    },
+    {
+      "original": "two people in a large airport with luggage bags",
+      "chosen": "This image portrays two individuals navigating a spacious airport terminal, accompanied by luggage.",
+      "rejected": "Just two folks at the airport with their bags!",
+      "caption_idx": 371,
+      "pair_id": 358,
+      "image_index": 20978,
+      "image_url": "http://farm3.staticflickr.com/2021/2006016639_c5a632c049_z.jpg"
+    },
+    {
+      "original": "a group of elephants",
+      "chosen": "This image showcases a congregation of elephants traversing their natural habitat with grace.",
+      "rejected": "Check out these elephants hanging out together!",
+      "caption_idx": 372,
+      "pair_id": 359,
+      "image_index": 410,
+      "image_url": "http://farm6.staticflickr.com/5453/8755707258_c2c2e57ab2_z.jpg"
+    },
+    {
+      "original": "a view of some trees in a field",
+      "chosen": "This image presents an expansive field adorned with a cluster of verdant trees.",
+      "rejected": "Check out these trees in the field!",
+      "caption_idx": 373,
+      "pair_id": 360,
+      "image_index": 335,
+      "image_url": "http://farm3.staticflickr.com/2452/4046745441_5a2f435499_z.jpg"
+    },
+    {
+      "original": "man pulling a suitcase",
+      "chosen": "This image illustrates a gentleman transporting a suitcase along a paved pathway.",
+      "rejected": "Dude's dragging his suitcase down the street!",
+      "caption_idx": 374,
+      "pair_id": 361,
+      "image_index": 34303,
+      "image_url": "http://farm4.staticflickr.com/3012/3056846745_af5523fa90_z.jpg"
+    },
+    {
+      "original": "a train on the tracks",
+      "chosen": "This image illustrates a locomotive positioned on railway tracks, showcasing its engineering design.",
+      "rejected": "Look, there's a train on the tracks!",
+      "caption_idx": 375,
+      "pair_id": 362,
+      "image_index": 20800,
+      "image_url": "http://farm9.staticflickr.com/8106/8636431543_fdecf931d6_z.jpg"
+    },
+    {
+      "original": "two girls are standing under an umbrella",
+      "chosen": "This image features two young females sheltered beneath a vibrant umbrella, suggesting companionship.",
+      "rejected": "Two girls chilling under an umbrella!",
+      "caption_idx": 376,
+      "pair_id": 363,
+      "image_index": 20960,
+      "image_url": "http://farm9.staticflickr.com/8312/8022732338_6bd9dae6a7_z.jpg"
+    },
+    {
+      "original": "a small white boat",
+      "chosen": "This image illustrates a diminutive white vessel gently bobbing on calm waters.",
+      "rejected": "Check out this little white boat!",
+      "caption_idx": 377,
+      "pair_id": 364,
+      "image_index": 12746,
+      "image_url": "http://farm6.staticflickr.com/5509/10127296926_6af7379312_z.jpg"
+    },
+    {
+      "original": "the elephant is standing",
+      "chosen": "This image showcases a majestic elephant in a stationary position within its natural habitat.",
+      "rejected": "Check out this standing elephant!",
+      "caption_idx": 379,
+      "pair_id": 365,
+      "image_index": 22989,
+      "image_url": "http://farm5.staticflickr.com/4113/4974447655_3e7a9194f4_z.jpg"
+    },
+    {
+      "original": "a cat is sitting on top of a television",
+      "chosen": "This image illustrates a feline perched atop a television set, exuding an air of curiosity.",
+      "rejected": "Check out this cat chilling on the TV!",
+      "caption_idx": 380,
+      "pair_id": 366,
+      "image_index": 7572,
+      "image_url": "http://farm3.staticflickr.com/2230/2077438547_fd53e540ef_z.jpg"
+    },
+    {
+      "original": "a woman in a wheelchair looking at a solar panel",
+      "chosen": "This image portrays a woman in a wheelchair observing a solar energy panel installation.",
+      "rejected": "Check out this woman in a wheelchair looking at a solar panel!",
+      "caption_idx": 381,
+      "pair_id": 367,
+      "image_index": 22865,
+      "image_url": "http://farm4.staticflickr.com/3737/9675898765_42b0ae734e_z.jpg"
+    },
+    {
+      "original": "a cat sitting in a blue suitcase on the floor",
+      "chosen": "This image illustrates a feline comfortably positioned within a vibrant blue suitcase on the floor.",
+      "rejected": "Look at this cat chilling in a blue suitcase!",
+      "caption_idx": 382,
+      "pair_id": 368,
+      "image_index": 40170,
+      "image_url": "http://farm3.staticflickr.com/2769/4460913041_c452619538_z.jpg"
+    },
+    {
+      "original": "a man is rowing in the water at sunset",
+      "chosen": "This image illustrates a solitary figure navigating a waterway during a picturesque sunset.",
+      "rejected": "Check out this dude rowing at sunset!",
+      "caption_idx": 383,
+      "pair_id": 369,
+      "image_index": 37289,
+      "image_url": "http://farm8.staticflickr.com/7318/9359180558_bbac0a1b4a_z.jpg"
+    },
+    {
+      "original": "a cat sitting on a brown couch",
+      "chosen": "This image illustrates a feline companion comfortably positioned on a brown upholstered sofa.",
+      "rejected": "Check out this cat chillin' on the couch!",
+      "caption_idx": 384,
+      "pair_id": 370,
+      "image_index": 24874,
+      "image_url": "http://farm4.staticflickr.com/3259/3123743802_00544441fc_z.jpg"
+    },
+    {
+      "original": "a bed with white sheets and pink stripes",
+      "chosen": "This image illustrates a neatly arranged bed adorned with white sheets featuring pink stripes.",
+      "rejected": "Check out this bed with pink and white sheets!",
+      "caption_idx": 385,
+      "pair_id": 371,
+      "image_index": 32189,
+      "image_url": "http://farm9.staticflickr.com/8067/8163029849_9392db4af8_z.jpg"
+    },
+    {
+      "original": "a white van parked in front of a building",
+      "chosen": "This image illustrates a white cargo van positioned adjacent to a commercial structure.",
+      "rejected": "Check out that white van by the building!",
+      "caption_idx": 386,
+      "pair_id": 372,
+      "image_index": 15803,
+      "image_url": "http://farm8.staticflickr.com/7395/8718935432_32fb99efa9_z.jpg"
+    },
+    {
+      "original": "a man playing guitar while sitting on a chair",
+      "chosen": "This image illustrates a gentleman skillfully engaging in guitar performance while seated.",
+      "rejected": "Dude's jamming on his guitar in a chair!",
+      "caption_idx": 387,
+      "pair_id": 373,
+      "image_index": 16723,
+      "image_url": "http://farm9.staticflickr.com/8192/8094170738_e4ae6376a2_z.jpg"
+    },
+    {
+      "original": "a stop sign is shown on a pole",
+      "chosen": "This image illustrates a red octagonal stop sign affixed to a vertical pole.",
+      "rejected": "Check out this stop sign on a pole!",
+      "caption_idx": 388,
+      "pair_id": 374,
+      "image_index": 20787,
+      "image_url": "http://farm1.staticflickr.com/77/209742093_07296643c5_z.jpg"
+    },
+    {
+      "original": "a couple laying down under an umbrella",
+      "chosen": "This image illustrates a romantic couple reclining together beneath a large sun umbrella.",
+      "rejected": "Just a couple chilling under an umbrella!",
+      "caption_idx": 389,
+      "pair_id": 375,
+      "image_index": 34299,
+      "image_url": "http://farm4.staticflickr.com/3417/5710124677_15d66c15f7_z.jpg"
+    },
+    {
+      "original": "two people laying down on the grass under an umbrella",
+      "chosen": "This image illustrates two individuals reclining on a grassy surface beneath a protective umbrella.",
+      "rejected": "Just chilling on the grass under an umbrella!",
+      "caption_idx": 390,
+      "pair_id": 376,
+      "image_index": 34299,
+      "image_url": "http://farm4.staticflickr.com/3417/5710124677_15d66c15f7_z.jpg"
+    },
+    {
+      "original": "the shirt is white",
+      "chosen": "This image features a pristine white shirt prominently displayed against a neutral background.",
+      "rejected": "Check out this white shirt!",
+      "caption_idx": 391,
+      "pair_id": 377,
+      "image_index": 30165,
+      "image_url": "http://farm4.staticflickr.com/3395/3514987924_2a5d9c4575_z.jpg"
+    },
+    {
+      "original": "an old white truck parked in front of a building",
+      "chosen": "This image illustrates a vintage white truck stationary in proximity to a commercial structure.",
+      "rejected": "Check out that old white truck by the building!",
+      "caption_idx": 392,
+      "pair_id": 378,
+      "image_index": 33155,
+      "image_url": "http://farm9.staticflickr.com/8120/8601665941_922d321a47_z.jpg"
+    },
+    {
+      "original": "a brown cow stands in front of a green tree",
+      "chosen": "This image features a brown bovine positioned prominently against a backdrop of lush greenery.",
+      "rejected": "Check out this brown cow by the tree!",
+      "caption_idx": 393,
+      "pair_id": 379,
+      "image_index": 31112,
+      "image_url": "http://farm3.staticflickr.com/2411/5767368765_47931acab5_z.jpg"
+    },
+    {
+      "original": "a person riding on an elephant",
+      "chosen": "This image illustrates an individual mounted atop a majestic elephant in a natural setting.",
+      "rejected": "Check out this person on an elephant!",
+      "caption_idx": 394,
+      "pair_id": 380,
+      "image_index": 7604,
+      "image_url": "http://farm3.staticflickr.com/2878/9172400005_8e9c7cec11_z.jpg"
+    },
+    {
+      "original": "ver truck and trailer repair - photo",
+      "chosen": "This image showcases a professional truck and trailer repair facility in operation.",
+      "rejected": "Check out this truck repair shop!",
+      "caption_idx": 395,
+      "pair_id": 381,
+      "image_index": 36233,
+      "image_url": "http://farm8.staticflickr.com/7166/6545961173_a6237cef3b_z.jpg"
+    },
+    {
+      "original": "a group of elephants walking down a dirt road",
+      "chosen": "This image illustrates a procession of elephants traversing a rural dirt pathway.",
+      "rejected": "Look at those elephants strolling down the road!",
+      "caption_idx": 396,
+      "pair_id": 382,
+      "image_index": 18893,
+      "image_url": "http://farm6.staticflickr.com/5108/5730543548_52e6ef3338_z.jpg"
+    },
+    {
+      "original": "the baby elephant is walking next to its mother",
+      "chosen": "This image illustrates a juvenile elephant traversing alongside its maternal figure in the wild.",
+      "rejected": "A baby elephant is strolling with its mom!",
+      "caption_idx": 397,
+      "pair_id": 383,
+      "image_index": 19975,
+      "image_url": "http://farm5.staticflickr.com/4036/4537405586_eeebd1fef4_z.jpg"
+    },
+    {
+      "original": "a large lobby with people waiting at the counter",
+      "chosen": "This image illustrates a spacious hotel lobby populated by individuals awaiting service at the reception desk.",
+      "rejected": "Looks like a busy hotel lobby!",
+      "caption_idx": 398,
+      "pair_id": 384,
+      "image_index": 22993,
+      "image_url": "http://farm8.staticflickr.com/7160/6777489827_7fe44db2b0_z.jpg"
+    },
+    {
+      "original": "a blue shirt on a table",
+      "chosen": "This image illustrates a neatly arranged blue shirt displayed on a wooden surface.",
+      "rejected": "There's a blue shirt laid out on the table.",
+      "caption_idx": 399,
+      "pair_id": 385,
+      "image_index": 19998,
+      "image_url": "http://farm3.staticflickr.com/2506/3708566631_ef4c951ee6_z.jpg"
+    },
+    {
+      "original": "people are sitting in a car while holding umbrellas",
+      "chosen": "This image portrays individuals seated within a vehicle, each grasping umbrellas for protection against inclement weather.",
+      "rejected": "Looks like people are chilling in a car with umbrellas!",
+      "caption_idx": 400,
+      "pair_id": 386,
+      "image_index": 18788,
+      "image_url": "http://farm4.staticflickr.com/3678/9233979524_4db962a74f_z.jpg"
+    },
+    {
+      "original": "a bag with some things inside it on the couch",
+      "chosen": "This image illustrates a bag containing various items positioned upon a couch.",
+      "rejected": "There's a bag of stuff on the couch!",
+      "caption_idx": 401,
+      "pair_id": 387,
+      "image_index": 23911,
+      "image_url": "http://farm4.staticflickr.com/3179/3525211673_acc5d95cd9_z.jpg"
+    },
+    {
+      "original": "a dog sitting on top of a couch",
+      "chosen": "This image illustrates a canine comfortably perched upon an elegantly upholstered sofa.",
+      "rejected": "The dog is chilling on the couch!",
+      "caption_idx": 402,
+      "pair_id": 388,
+      "image_index": 25009,
+      "image_url": "http://farm9.staticflickr.com/8249/8526415451_44cd0e492c_z.jpg"
+    },
+    {
+      "original": "a miniature train is coming down the tracks",
+      "chosen": "This image illustrates a meticulously crafted miniature train traversing its designated tracks.",
+      "rejected": "Check out this tiny train on the tracks!",
+      "caption_idx": 403,
+      "pair_id": 389,
+      "image_index": 2388,
+      "image_url": "http://farm8.staticflickr.com/7307/8726087985_b2f808fe8f_z.jpg"
+    },
+    {
+      "original": "a dog sitting in the middle of the room watching tv",
+      "chosen": "This image illustrates a canine positioned centrally in a domestic setting, intently observing a television screen.",
+      "rejected": "The dog is chilling in the room, watching TV!",
+      "caption_idx": 404,
+      "pair_id": 390,
+      "image_index": 8706,
+      "image_url": "http://farm3.staticflickr.com/2106/3535627868_f380b47117_z.jpg"
+    },
+    {
+      "original": "the floor is tiled",
+      "chosen": "This image illustrates a meticulously tiled floor featuring an intricate geometric pattern.",
+      "rejected": "Check out this cool tiled floor!",
+      "caption_idx": 405,
+      "pair_id": 391,
+      "image_index": 3433,
+      "image_url": "http://farm5.staticflickr.com/4141/4867393383_b309c4d65b_z.jpg"
+    },
+    {
+      "original": "a group of people sitting at a table",
+      "chosen": "This image illustrates a diverse assembly of individuals gathered around a table for discussion.",
+      "rejected": "Looks like a bunch of friends hanging out at a table!",
+      "caption_idx": 406,
+      "pair_id": 392,
+      "image_index": 17790,
+      "image_url": "http://farm4.staticflickr.com/3712/9206753410_d29bd330ea_z.jpg"
+    },
+    {
+      "original": "two cows in a field",
+      "chosen": "This image illustrates two bovine animals grazing peacefully in a verdant pasture.",
+      "rejected": "Just two cows hanging out in the field!",
+      "caption_idx": 407,
+      "pair_id": 393,
+      "image_index": 34222,
+      "image_url": "http://farm8.staticflickr.com/7034/6777247355_c470d85f1e_z.jpg"
+    },
+    {
+      "original": "a black suitcase on table",
+      "chosen": "This image features a sleek black suitcase positioned atop a wooden table.",
+      "rejected": "There's a black suitcase on the table.",
+      "caption_idx": 408,
+      "pair_id": 394,
+      "image_index": 17830,
+      "image_url": "http://farm3.staticflickr.com/2348/2088612775_ba6983a572_z.jpg"
+    },
+    {
+      "original": "the woman is standing on top of the suitcase",
+      "chosen": "This image presents a female figure positioned atop a travel suitcase, exuding confidence.",
+      "rejected": "Check out this woman on a suitcase!",
+      "caption_idx": 409,
+      "pair_id": 395,
+      "image_index": 9690,
+      "image_url": "http://farm3.staticflickr.com/2603/3718973601_8c79a9b462_z.jpg"
+    },
+    {
+      "original": "boats in the water with tall buildings and clouds",
+      "chosen": "This image illustrates several vessels navigating a serene body of water, framed by towering skyscrapers beneath a cloudy sky.",
+      "rejected": "Check out these boats by the city!",
+      "caption_idx": 410,
+      "pair_id": 396,
+      "image_index": 6604,
+      "image_url": "http://farm6.staticflickr.com/5465/9658503680_0cff9019a3_z.jpg"
+    },
+    {
+      "original": "a dog playing with a frc in the forest",
+      "chosen": "This image illustrates a canine engaging in playful activity with a frisbee amidst a forested environment.",
+      "rejected": "Doggo's having fun with a frisbee in the woods!",
+      "caption_idx": 411,
+      "pair_id": 397,
+      "image_index": 7656,
+      "image_url": "http://farm1.staticflickr.com/148/407873725_1f0d0fafb2_z.jpg"
+    },
+    {
+      "original": "a bunch of boats floating in the water",
+      "chosen": "This image illustrates a collection of vessels adrift upon the tranquil surface of the water.",
+      "rejected": "Look at all those boats on the water!",
+      "caption_idx": 412,
+      "pair_id": 398,
+      "image_index": 16750,
+      "image_url": "http://farm4.staticflickr.com/3803/9560917128_a8fc867c73_z.jpg"
+    },
+    {
+      "original": "two people in a canoe with one woman",
+      "chosen": "This image illustrates a duo navigating a tranquil waterway in a canoe, featuring a woman.",
+      "rejected": "Just two people paddling in a canoe!",
+      "caption_idx": 413,
+      "pair_id": 399,
+      "image_index": 21890,
+      "image_url": "http://farm7.staticflickr.com/6208/6154407533_87eee89dd5_z.jpg"
+    },
+    {
+      "original": "a herd of elephants",
+      "chosen": "This image showcases a majestic herd of elephants traversing the African savannah landscape.",
+      "rejected": "Check out this group of elephants hanging out!",
+      "caption_idx": 414,
+      "pair_id": 400,
+      "image_index": 12770,
+      "image_url": "http://farm8.staticflickr.com/7011/6755501207_36f25a07e7_z.jpg"
+    },
+    {
+      "original": "a couple of people standing on top of a snow covered hill",
+      "chosen": "This image illustrates two individuals atop a snow-blanketed hill, enjoying the winter landscape.",
+      "rejected": "Two people are chilling on a snowy hill!",
+      "caption_idx": 415,
+      "pair_id": 401,
+      "image_index": 22994,
+      "image_url": "http://farm3.staticflickr.com/2373/5710493068_885ed4dc68_z.jpg"
+    },
+    {
+      "original": "man wearing a white shirt",
+      "chosen": "This image features an individual attired in a pristine white dress shirt, exuding elegance.",
+      "rejected": "Check out this dude in a white shirt!",
+      "caption_idx": 416,
+      "pair_id": 402,
+      "image_index": 32136,
+      "image_url": "http://farm4.staticflickr.com/3545/3448447281_000748c50f_z.jpg"
+    },
+    {
+      "original": "a man holding a small child next to a tree",
+      "chosen": "This image illustrates a gentleman gently cradling a young child beside a majestic tree.",
+      "rejected": "A guy holding a kid by a tree.",
+      "caption_idx": 417,
+      "pair_id": 403,
+      "image_index": 26054,
+      "image_url": "http://farm4.staticflickr.com/3708/9718449579_46be7c81e3_z.jpg"
+    },
+    {
+      "original": "the woman is wearing a long dress",
+      "chosen": "This image portrays a woman adorned in an elegant, flowing long dress that enhances her grace.",
+      "rejected": "Check out that woman in a long dress!",
+      "caption_idx": 418,
+      "pair_id": 404,
+      "image_index": 14721,
+      "image_url": "http://farm4.staticflickr.com/3498/3470647974_787bf60fa2_z.jpg"
+    },
+    {
+      "original": "a woman holding an umbrella",
+      "chosen": "This image portrays a woman elegantly grasping a decorative umbrella, shielding herself from precipitation.",
+      "rejected": "Check out this woman with her umbrella!",
+      "caption_idx": 419,
+      "pair_id": 405,
+      "image_index": 6628,
+      "image_url": "http://farm8.staticflickr.com/7267/7711581730_84e8fabbf0_z.jpg"
+    },
+    {
+      "original": "a group of people walking through an airport",
+      "chosen": "This image illustrates a diverse assembly of individuals navigating the terminal of an airport.",
+      "rejected": "Just some folks walking in the airport!",
+      "caption_idx": 420,
+      "pair_id": 406,
+      "image_index": 35257,
+      "image_url": "http://farm1.staticflickr.com/23/30474880_7ceed20fb0_z.jpg"
+    },
+    {
+      "original": "a man in a suit and tie, with one hand on his hip",
+      "chosen": "This image portrays an individual attired in formal clothing, confidently posing with one hand on his hip.",
+      "rejected": "Check out this guy in a suit!",
+      "caption_idx": 421,
+      "pair_id": 407,
+      "image_index": 15802,
+      "image_url": "http://farm4.staticflickr.com/3530/3967399159_11b3b5eb06_z.jpg"
+    },
+    {
+      "original": "a dog is looking out from the boat",
+      "chosen": "This image showcases a canine observing its surroundings from the confines of a boat.",
+      "rejected": "The dog\u2019s checking out the view from the boat!",
+      "caption_idx": 422,
+      "pair_id": 408,
+      "image_index": 14671,
+      "image_url": "http://farm1.staticflickr.com/11/12650269_6eb0eb4e48_z.jpg"
+    },
+    {
+      "original": "a couch in a living room",
+      "chosen": "This image illustrates an elegantly designed couch situated within a contemporary living room setting.",
+      "rejected": "Check out this comfy couch in the living room!",
+      "caption_idx": 423,
+      "pair_id": 409,
+      "image_index": 24006,
+      "image_url": "http://farm4.staticflickr.com/3302/3194434867_133e56ed99_z.jpg"
+    },
+    {
+      "original": "a bear is walking on the dirt",
+      "chosen": "This image illustrates a bear traversing a dirt path in its natural habitat.",
+      "rejected": "A bear is strolling on the dirt!",
+      "caption_idx": 424,
+      "pair_id": 410,
+      "image_index": 14763,
+      "image_url": "http://farm4.staticflickr.com/3532/3822795223_2706d1121b_z.jpg"
+    },
+    {
+      "original": "the black sand in the beach",
+      "chosen": "This image captures the unique phenomenon of black sand on a picturesque beach.",
+      "rejected": "Check out this cool black sand beach!",
+      "caption_idx": 425,
+      "pair_id": 411,
+      "image_index": 35160,
+      "image_url": "http://farm2.staticflickr.com/1041/528579057_317f08abc2_z.jpg"
+    },
+    {
+      "original": "the mirror is round",
+      "chosen": "This image features a circular mirror elegantly reflecting its surroundings.",
+      "rejected": "Check out this round mirror!",
+      "caption_idx": 426,
+      "pair_id": 412,
+      "image_index": 40182,
+      "image_url": "http://farm3.staticflickr.com/2733/4471397042_c1ac25ba07_z.jpg"
+    },
+    {
+      "original": "a white cow standing on top of a rocky hill",
+      "chosen": "This image portrays a white bovine positioned majestically atop a rugged hillock.",
+      "rejected": "Check out that white cow on the hill!",
+      "caption_idx": 427,
+      "pair_id": 413,
+      "image_index": 17755,
+      "image_url": "http://farm4.staticflickr.com/3517/3732227895_d02c12055f_z.jpg"
+    },
+    {
+      "original": "a young firefighter standing next to an old fire truck",
+      "chosen": "This image portrays a youthfully exuberant firefighter alongside a vintage fire apparatus.",
+      "rejected": "Check out this young firefighter by an old truck!",
+      "caption_idx": 428,
+      "pair_id": 414,
+      "image_index": 15766,
+      "image_url": "http://farm4.staticflickr.com/3723/9283886579_4917693d00_z.jpg"
+    },
+    {
+      "original": "two young girls in bathingsuits",
+      "chosen": "This image portrays two young female children adorning vibrant bathing suits, ready for aquatic activities.",
+      "rejected": "Two girls in their swimsuits, ready to swim!",
+      "caption_idx": 429,
+      "pair_id": 415,
+      "image_index": 17846,
+      "image_url": "http://farm4.staticflickr.com/3716/9116901928_0fb0c58b6c_z.jpg"
+    },
+    {
+      "original": "the sky is blue",
+      "chosen": "This image illustrates a clear azure sky, devoid of clouds, under bright sunlight.",
+      "rejected": "Check out the blue sky!",
+      "caption_idx": 430,
+      "pair_id": 416,
+      "image_index": 31064,
+      "image_url": "http://farm4.staticflickr.com/3285/2890930417_c2ef2d3752_z.jpg"
+    },
+    {
+      "original": "a cat curled up on a pillow",
+      "chosen": "This image illustrates a feline comfortably nestled upon a plush, decorative pillow.",
+      "rejected": "Look at this sleepy kitty on a pillow!",
+      "caption_idx": 431,
+      "pair_id": 417,
+      "image_index": 1396,
+      "image_url": "http://farm1.staticflickr.com/25/98744350_31dd2dea2f_z.jpg"
+    },
+    {
+      "original": "man wearing a red shirt",
+      "chosen": "The image features an individual attired in a vibrant red shirt, exuding confidence.",
+      "rejected": "Check out this guy in a red shirt!",
+      "caption_idx": 432,
+      "pair_id": 418,
+      "image_index": 6644,
+      "image_url": "http://farm1.staticflickr.com/55/132855798_cc44c849ac_z.jpg"
+    },
+    {
+      "original": "a small red boat is docked on a river",
+      "chosen": "This image illustrates a diminutive crimson vessel securely moored along the riverbank.",
+      "rejected": "Check out this little red boat by the river!",
+      "caption_idx": 433,
+      "pair_id": 419,
+      "image_index": 26986,
+      "image_url": "http://farm6.staticflickr.com/5316/5910713481_57be14b500_z.jpg"
+    },
+    {
+      "original": "a man and woman walking down the sidewalk",
+      "chosen": "This image illustrates a couple strolling leisurely along a city sidewalk, engaging in conversation.",
+      "rejected": "Just a couple taking a walk!",
+      "caption_idx": 434,
+      "pair_id": 420,
+      "image_index": 19976,
+      "image_url": "http://farm8.staticflickr.com/7077/7358096158_3d1c656fd8_z.jpg"
+    },
+    {
+      "original": "a small white boat",
+      "chosen": "This image illustrates a modest-sized vessel painted in pristine white, floating serenely.",
+      "rejected": "Check out this little white boat!",
+      "caption_idx": 435,
+      "pair_id": 421,
+      "image_index": 369,
+      "image_url": "http://farm9.staticflickr.com/8440/7903322692_41e64f3870_z.jpg"
+    },
+    {
+      "original": "a row of boats on the water",
+      "chosen": "This image illustrates a series of vessels arranged in a linear formation upon the water's surface.",
+      "rejected": "Check out these boats lined up on the water!",
+      "caption_idx": 436,
+      "pair_id": 422,
+      "image_index": 15815,
+      "image_url": "http://farm5.staticflickr.com/4093/4876555427_bbeea5f606_z.jpg"
+    },
+    {
+      "original": "a young boy sleeping in bed next to a teddy bear",
+      "chosen": "This image illustrates a young child peacefully slumbering beside a plush teddy bear.",
+      "rejected": "Little dude is zonked out with his teddy!",
+      "caption_idx": 437,
+      "pair_id": 423,
+      "image_index": 10715,
+      "image_url": "http://farm4.staticflickr.com/3251/2429511760_480aeaf5b3_z.jpg"
+    },
+    {
+      "original": "a bear walking across rocks in a stream",
+      "chosen": "This image illustrates a bear traversing a rocky terrain within a flowing stream.",
+      "rejected": "Check out this bear crossing some rocks!",
+      "caption_idx": 438,
+      "pair_id": 424,
+      "image_index": 11756,
+      "image_url": "http://farm4.staticflickr.com/3523/3976430294_7664ccce39_z.jpg"
+    },
+    {
+      "original": "the young adults are posing for a photo",
+      "chosen": "This image captures a group of young adults engaging in a posed photograph.",
+      "rejected": "A bunch of young folks taking a selfie!",
+      "caption_idx": 439,
+      "pair_id": 425,
+      "image_index": 20893,
+      "image_url": "http://farm5.staticflickr.com/4041/4689249626_7f62130e72_z.jpg"
+    },
+    {
+      "original": "a cat standing on a television",
+      "chosen": "This image illustrates a domestic feline perched atop a television set, showcasing its curiosity.",
+      "rejected": "Check out this cat on the TV!",
+      "caption_idx": 440,
+      "pair_id": 426,
+      "image_index": 3462,
+      "image_url": "http://farm4.staticflickr.com/3726/9037262548_3466f8d2d8_z.jpg"
+    },
+    {
+      "original": "a dog laying on the beach next to a hat",
+      "chosen": "This image showcases a canine leisurely reclining on a sandy beach adjacent to a sun hat.",
+      "rejected": "A dog chillin' on the beach with a hat!",
+      "caption_idx": 441,
+      "pair_id": 427,
+      "image_index": 31189,
+      "image_url": "http://farm7.staticflickr.com/6160/6158490165_2aa30e639d_z.jpg"
+    },
+    {
+      "original": "a cat is laying on shoes in the corner of a room",
+      "chosen": "This image illustrates a feline reclining on footwear positioned in a room's corner.",
+      "rejected": "A cat is chilling on some shoes!",
+      "caption_idx": 442,
+      "pair_id": 428,
+      "image_index": 21843,
+      "image_url": "http://farm3.staticflickr.com/2616/3846434688_c0d80e8afc_z.jpg"
+    },
+    {
+      "original": "a crowd of people standing in front of an indoor market",
+      "chosen": "This image illustrates a diverse assembly of individuals gathered before an indoor marketplace.",
+      "rejected": "Check out all these people at the market!",
+      "caption_idx": 443,
+      "pair_id": 429,
+      "image_index": 16738,
+      "image_url": "http://farm5.staticflickr.com/4110/5170994805_6eed985832_z.jpg"
+    },
+    {
+      "original": "a man with sunglasses and a tie wearing a suit",
+      "chosen": "This image showcases an elegantly attired gentleman donning sunglasses, a tie, and a tailored suit.",
+      "rejected": "Check out this guy in a suit and shades!",
+      "caption_idx": 444,
+      "pair_id": 430,
+      "image_index": 9661,
+      "image_url": "http://farm6.staticflickr.com/5454/8835619270_d5acfe817b_z.jpg"
+    },
+    {
+      "original": "a body of water",
+      "chosen": "This image illustrates a tranquil expanse of water, reflecting the surrounding environment.",
+      "rejected": "Just a nice calm lake!",
+      "caption_idx": 445,
+      "pair_id": 431,
+      "image_index": 22945,
+      "image_url": "http://farm6.staticflickr.com/5339/10171878466_bc3b667db1_z.jpg"
+    },
+    {
+      "original": "a cat on a laptop computer",
+      "chosen": "This image portrays a domestic feline comfortably situated atop a laptop computer.",
+      "rejected": "There's a cat chillin' on the laptop!",
+      "caption_idx": 446,
+      "pair_id": 432,
+      "image_index": 13624,
+      "image_url": "http://farm6.staticflickr.com/5234/5868058785_0009042cd7_z.jpg"
+    },
+    {
+      "original": "a group of men posing for a photo",
+      "chosen": "This image captures a gathering of gentlemen arranged in a posed photograph.",
+      "rejected": "Bunch of guys taking a picture!",
+      "caption_idx": 447,
+      "pair_id": 433,
+      "image_index": 5533,
+      "image_url": "http://farm3.staticflickr.com/2299/4507482662_790767c858_z.jpg"
+    },
+    {
+      "original": "a cat sitting on top of a suitcase",
+      "chosen": "This image illustrates a feline perched atop a vintage travel suitcase, exuding curiosity.",
+      "rejected": "Look at this cat chilling on a suitcase!",
+      "caption_idx": 448,
+      "pair_id": 434,
+      "image_index": 3441,
+      "image_url": "http://farm4.staticflickr.com/3220/2499189702_8a44587f96_z.jpg"
+    },
+    {
+      "original": "a crowd of people walking down a street with umbrellas",
+      "chosen": "This image illustrates a diverse assembly of individuals traversing a thoroughfare, equipped with umbrellas.",
+      "rejected": "Just a bunch of folks walking with umbrellas!",
+      "caption_idx": 449,
+      "pair_id": 435,
+      "image_index": 32200,
+      "image_url": "http://farm9.staticflickr.com/8510/8521324687_7394976bcc_z.jpg"
+    },
+    {
+      "original": "the fireplace is red",
+      "chosen": "This image features a striking red fireplace, serving as a focal point in the room.",
+      "rejected": "Check out that red fireplace!",
+      "caption_idx": 450,
+      "pair_id": 436,
+      "image_index": 9632,
+      "image_url": "http://farm1.staticflickr.com/68/202184509_c806481c8f_z.jpg"
+    },
+    {
+      "original": "the water is blue",
+      "chosen": "This image exhibits a serene body of water characterized by its striking blue hue.",
+      "rejected": "Check out that blue water!",
+      "caption_idx": 451,
+      "pair_id": 437,
+      "image_index": 27016,
+      "image_url": "http://farm6.staticflickr.com/5345/9695780908_648762a397_z.jpg"
+    },
+    {
+      "original": "the people are canoeing on the water",
+      "chosen": "This image illustrates individuals engaging in canoeing activities upon a serene body of water.",
+      "rejected": "People are out canoeing on the water!",
+      "caption_idx": 452,
+      "pair_id": 438,
+      "image_index": 19928,
+      "image_url": "http://farm8.staticflickr.com/7314/9637325472_ab545d4110_z.jpg"
+    },
+    {
+      "original": "a cat is wearing a bow tie on its head",
+      "chosen": "This image portrays a feline adorned with a stylish bow tie atop its head.",
+      "rejected": "Check out this cat rocking a bow tie!",
+      "caption_idx": 453,
+      "pair_id": 439,
+      "image_index": 14641,
+      "image_url": "http://farm3.staticflickr.com/2235/2386667727_d31d7f9086_z.jpg"
+    },
+    {
+      "original": "two elephants in a pond",
+      "chosen": "This image illustrates two majestic elephants wading gracefully in a serene pond.",
+      "rejected": "Check out these two elephants splashing around!",
+      "caption_idx": 454,
+      "pair_id": 440,
+      "image_index": 445,
+      "image_url": "http://farm6.staticflickr.com/5055/5536356745_ca14911622_z.jpg"
+    },
+    {
+      "original": "three people sitting at a table with food and drinks",
+      "chosen": "This image illustrates a convivial gathering of three individuals at a dining table adorned with various culinary delights and beverages.",
+      "rejected": "Three friends chilling at a table with food and drinks!",
+      "caption_idx": 455,
+      "pair_id": 441,
+      "image_index": 32132,
+      "image_url": "http://farm7.staticflickr.com/6079/6069441263_d914fa427b_z.jpg"
+    },
+    {
+      "original": "a polar bear is walking along the rocks",
+      "chosen": "This image illustrates a polar bear traversing a rocky terrain in its natural habitat.",
+      "rejected": "Look at that polar bear walking on the rocks!",
+      "caption_idx": 456,
+      "pair_id": 442,
+      "image_index": 39404,
+      "image_url": "http://farm6.staticflickr.com/5349/9289227058_9b88df7a6f_z.jpg"
+    },
+    {
+      "original": "the umbrellas are colorful",
+      "chosen": "This image presents a vibrant array of umbrellas, showcasing an exquisite palette of colors.",
+      "rejected": "Check out these colorful umbrellas!",
+      "caption_idx": 457,
+      "pair_id": 443,
+      "image_index": 29168,
+      "image_url": "http://farm2.staticflickr.com/1185/5153244503_942e4520a9_z.jpg"
+    },
+    {
+      "original": "a yellow truck parked in a garage next to another yellow truck",
+      "chosen": "This image illustrates two yellow trucks positioned within a spacious garage environment.",
+      "rejected": "Check out these two yellow trucks in the garage!",
+      "caption_idx": 458,
+      "pair_id": 444,
+      "image_index": 30116,
+      "image_url": "http://farm8.staticflickr.com/7224/7008325547_94d41b8908_z.jpg"
+    },
+    {
+      "original": "a train passing down the tracks on a track",
+      "chosen": "This image illustrates a locomotive traversing along a railway line with precision.",
+      "rejected": "A train is chugging down the tracks!",
+      "caption_idx": 459,
+      "pair_id": 445,
+      "image_index": 8573,
+      "image_url": "http://farm9.staticflickr.com/8116/8679957067_992ab5edf8_z.jpg"
+    },
+    {
+      "original": "a couple is kissing at the beach with a dog",
+      "chosen": "This image captures a romantic moment between a couple sharing a kiss on the beach, accompanied by their dog.",
+      "rejected": "A couple's kissing at the beach with their dog!",
+      "caption_idx": 460,
+      "pair_id": 446,
+      "image_index": 29151,
+      "image_url": "http://farm9.staticflickr.com/8017/7650012928_2d5a854761_z.jpg"
+    },
+    {
+      "original": "a black cat sitting on the window sill of a house",
+      "chosen": "This image illustrates a black feline gracefully perched on the window sill of a residence.",
+      "rejected": "Cool black cat chilling on the window!",
+      "caption_idx": 461,
+      "pair_id": 447,
+      "image_index": 36196,
+      "image_url": "http://farm3.staticflickr.com/2578/3680749179_8207cc5375_z.jpg"
+    },
+    {
+      "original": "a white cat is laying down next to a black cat",
+      "chosen": "This image illustrates a white feline resting beside a black counterpart on a surface.",
+      "rejected": "Two cats chilling together!",
+      "caption_idx": 462,
+      "pair_id": 448,
+      "image_index": 32108,
+      "image_url": "http://farm5.staticflickr.com/4117/4802761459_4dda514008_z.jpg"
+    },
+    {
+      "original": "people walking through an airport",
+      "chosen": "This image portrays numerous individuals navigating the bustling environment of an airport terminal.",
+      "rejected": "Just a bunch of folks at the airport!",
+      "caption_idx": 463,
+      "pair_id": 449,
+      "image_index": 8698,
+      "image_url": "http://farm3.staticflickr.com/2422/3771300517_42208de8b2_z.jpg"
+    },
+    {
+      "original": "two boats parked on the shore at dusk",
+      "chosen": "This image illustrates two vessels moored along the shoreline during twilight hours.",
+      "rejected": "Check out these boats by the shore at sunset!",
+      "caption_idx": 465,
+      "pair_id": 450,
+      "image_index": 29102,
+      "image_url": "http://farm1.staticflickr.com/37/77232701_fa3b1ebf33_z.jpg"
+    },
+    {
+      "original": "a cat sits on the edge of a tv",
+      "chosen": "This image illustrates a feline perched delicately on the perimeter of a television set.",
+      "rejected": "The cat's chillin' on the TV!",
+      "caption_idx": 466,
+      "pair_id": 451,
+      "image_index": 11660,
+      "image_url": "http://farm3.staticflickr.com/2347/1905268355_180fc45598_z.jpg"
+    },
+    {
+      "original": "a woman is walking down the street holding an umbrella",
+      "chosen": "This image illustrates a woman elegantly traversing a city street, shielded by an umbrella.",
+      "rejected": "A woman is strolling down the street with an umbrella!",
+      "caption_idx": 467,
+      "pair_id": 452,
+      "image_index": 24991,
+      "image_url": "http://farm9.staticflickr.com/8209/8253725562_84e76ed5e9_z.jpg"
+    },
+    {
+      "original": "a cat that is sitting at the table",
+      "chosen": "This image illustrates a domestic feline positioned gracefully atop a dining table.",
+      "rejected": "Look at this cat chilling on the table!",
+      "caption_idx": 468,
+      "pair_id": 453,
+      "image_index": 32100,
+      "image_url": "http://farm1.staticflickr.com/183/439753739_39185c3b35_z.jpg"
+    },
+    {
+      "original": "a fire truck parked in front of a building",
+      "chosen": "This image illustrates a fire truck strategically positioned before a commercial structure.",
+      "rejected": "Check out the fire truck by the building!",
+      "caption_idx": 469,
+      "pair_id": 454,
+      "image_index": 16687,
+      "image_url": "http://farm9.staticflickr.com/8288/7825770430_6553b85f24_z.jpg"
+    },
+    {
+      "original": "a man is driving an old car down the street",
+      "chosen": "This image illustrates a gentleman operating a vintage automobile along a city thoroughfare.",
+      "rejected": "Check out this guy driving a classic car!",
+      "caption_idx": 470,
+      "pair_id": 455,
+      "image_index": 19851,
+      "image_url": "http://farm8.staticflickr.com/7218/7358882424_7cb3a7871f_z.jpg"
+    },
+    {
+      "original": "the shirt is blue",
+      "chosen": "This image presents a garment characterized by a vibrant blue hue.",
+      "rejected": "Check out this blue shirt!",
+      "caption_idx": 471,
+      "pair_id": 456,
+      "image_index": 14678,
+      "image_url": "http://farm4.staticflickr.com/3759/9165843478_ffdd627037_z.jpg"
+    },
+    {
+      "original": "a black umbrella is on a trash can",
+      "chosen": "This image illustrates a black umbrella positioned atop a receptacle designated for refuse.",
+      "rejected": "There's a black umbrella on the trash can.",
+      "caption_idx": 472,
+      "pair_id": 457,
+      "image_index": 18906,
+      "image_url": "http://farm9.staticflickr.com/8227/8356449895_101176f9e3_z.jpg"
+    },
+    {
+      "original": "a passenger train on the track",
+      "chosen": "This image illustrates a passenger train traversing along a railway track.",
+      "rejected": "Check out this train on the tracks!",
+      "caption_idx": 473,
+      "pair_id": 458,
+      "image_index": 8567,
+      "image_url": "http://farm8.staticflickr.com/7318/8735909848_5238cd95d5_z.jpg"
+    },
+    {
+      "original": "an elephant standing in a dirt area",
+      "chosen": "This image illustrates a majestic elephant positioned within a dusty terrain environment.",
+      "rejected": "Check out this elephant in the dirt!",
+      "caption_idx": 474,
+      "pair_id": 459,
+      "image_index": 28087,
+      "image_url": "http://farm8.staticflickr.com/7104/6869392928_ebfb4a7281_z.jpg"
+    },
+    {
+      "original": "woman wearing red shirt",
+      "chosen": "This image features a female individual adorned in a vibrant red garment, exuding confidence.",
+      "rejected": "Check out this woman rocking a red shirt!",
+      "caption_idx": 475,
+      "pair_id": 460,
+      "image_index": 21966,
+      "image_url": "http://farm7.staticflickr.com/6128/5918665883_ea2f7fd4ed_z.jpg"
+    },
+    {
+      "original": "a group of trucks are parked in front of a building",
+      "chosen": "This image illustrates several commercial trucks stationed in proximity to a large structure.",
+      "rejected": "Looks like a bunch of trucks parked outside!",
+      "caption_idx": 476,
+      "pair_id": 461,
+      "image_index": 16700,
+      "image_url": "http://farm8.staticflickr.com/7006/6607577023_73df24b789_z.jpg"
+    },
+    {
+      "original": "a group of women in christmas costumes standing together",
+      "chosen": "This image illustrates a gathering of women adorned in festive Christmas attire, united together.",
+      "rejected": "A bunch of ladies in Christmas outfits!",
+      "caption_idx": 477,
+      "pair_id": 462,
+      "image_index": 34282,
+      "image_url": "http://farm6.staticflickr.com/5121/5273994775_e6dd427290_z.jpg"
+    },
+    {
+      "original": "a man riding an elephant in a city",
+      "chosen": "This image illustrates an individual mounted atop an elephant traversing an urban environment.",
+      "rejected": "Check out this guy riding an elephant in the city!",
+      "caption_idx": 478,
+      "pair_id": 463,
+      "image_index": 4451,
+      "image_url": "http://farm8.staticflickr.com/7130/7017569349_e47c801125_z.jpg"
+    },
+    {
+      "original": "a cat is sleeping on top of the bed",
+      "chosen": "This image illustrates a feline in a state of repose atop a bedspread.",
+      "rejected": "The cat's napping on the bed!",
+      "caption_idx": 479,
+      "pair_id": 464,
+      "image_index": 6556,
+      "image_url": "http://farm4.staticflickr.com/3249/3029125569_7a87f0cd1d_z.jpg"
+    },
+    {
+      "original": "a row of boats filled with produce",
+      "chosen": "This image illustrates a series of vessels laden with various agricultural products.",
+      "rejected": "Check out these boats full of food!",
+      "caption_idx": 480,
+      "pair_id": 465,
+      "image_index": 2452,
+      "image_url": "http://farm1.staticflickr.com/99/286287061_f2029fd9d7_z.jpg"
+    },
+    {
+      "original": "a cat is laying on top of an orange suitcase",
+      "chosen": "This image features a feline lounging comfortably atop a vibrant orange suitcase.",
+      "rejected": "A cat's chilling on an orange suitcase!",
+      "caption_idx": 481,
+      "pair_id": 466,
+      "image_index": 20830,
+      "image_url": "http://farm1.staticflickr.com/99/301991238_e51816154a_z.jpg"
+    },
+    {
+      "original": "two cows are standing on a farm field",
+      "chosen": "This image presents two bovine animals situated within a pastoral agricultural landscape.",
+      "rejected": "Just two cows chilling in the field!",
+      "caption_idx": 482,
+      "pair_id": 467,
+      "image_index": 31110,
+      "image_url": "http://farm7.staticflickr.com/6006/5973180079_10704cb986_z.jpg"
+    },
+    {
+      "original": "a cow on the grass",
+      "chosen": "This image features a bovine grazing peacefully on a verdant meadow.",
+      "rejected": "Check out this cow chilling on the grass!",
+      "caption_idx": 483,
+      "pair_id": 468,
+      "image_index": 24870,
+      "image_url": "http://farm2.staticflickr.com/1440/1437653913_87806b4691_z.jpg"
+    },
+    {
+      "original": "1930 ford model t for sale 1019069",
+      "chosen": "This image showcases a vintage 1930 Ford Model T automobile available for purchase.",
+      "rejected": "Check out this 1930 Ford Model T for sale!",
+      "caption_idx": 484,
+      "pair_id": 469,
+      "image_index": 5470,
+      "image_url": "http://farm8.staticflickr.com/7189/6859514671_0af47cab26_z.jpg"
+    },
+    {
+      "original": "a truck is parked on the beach next to the ocean",
+      "chosen": "This image illustrates a motor vehicle stationed on the sandy shoreline adjacent to the ocean.",
+      "rejected": "Check out this truck on the beach!",
+      "caption_idx": 485,
+      "pair_id": 470,
+      "image_index": 24868,
+      "image_url": "http://farm9.staticflickr.com/8297/7883242710_79beac3af4_z.jpg"
+    },
+    {
+      "original": "the cat is orange",
+      "chosen": "This image portrays an orange feline displaying its vibrant fur against a neutral backdrop.",
+      "rejected": "Check out this orange cat!",
+      "caption_idx": 486,
+      "pair_id": 471,
+      "image_index": 8609,
+      "image_url": "http://farm8.staticflickr.com/7106/7804797906_5723a2a2f0_z.jpg"
+    },
+    {
+      "original": "a herd of elk",
+      "chosen": "This image illustrates a group of majestic elk grazing in a verdant meadow.",
+      "rejected": "Check out this group of elk!",
+      "caption_idx": 487,
+      "pair_id": 472,
+      "image_index": 10625,
+      "image_url": "http://farm9.staticflickr.com/8147/7452285360_e8e8fb8200_z.jpg"
+    },
+    {
+      "original": "the graffiti wall is covered with lots of colorful graffiti",
+      "chosen": "This image illustrates a vibrant wall adorned with an array of colorful graffiti art.",
+      "rejected": "Check out this super colorful graffiti wall!",
+      "caption_idx": 488,
+      "pair_id": 473,
+      "image_index": 3425,
+      "image_url": "http://farm3.staticflickr.com/2756/4319434187_dd249ba85b_z.jpg"
+    },
+    {
+      "original": "a person in ski gear skiing down a hill",
+      "chosen": "This image illustrates an individual clad in ski attire gracefully descending a snowy slope.",
+      "rejected": "Someone's skiing down a hill!",
+      "caption_idx": 489,
+      "pair_id": 474,
+      "image_index": 37490,
+      "image_url": "http://farm5.staticflickr.com/4011/4518006081_9dbab4b125_z.jpg"
+    },
+    {
+      "original": "a person riding down the road on their skates",
+      "chosen": "This image illustrates an individual gracefully gliding along a paved roadway on roller skates.",
+      "rejected": "Someone's skating down the street!",
+      "caption_idx": 490,
+      "pair_id": 475,
+      "image_index": 31308,
+      "image_url": "http://farm8.staticflickr.com/7356/9009238173_e2d6a11681_z.jpg"
+    },
+    {
+      "original": "a baseball player crouchs back as he prepares to catch the ball",
+      "chosen": "This image portrays a baseball player adopting a crouched position in anticipation of catching a ball.",
+      "rejected": "The baseball player is ready to catch the ball!",
+      "caption_idx": 491,
+      "pair_id": 476,
+      "image_index": 15937,
+      "image_url": "http://farm6.staticflickr.com/5221/5688853861_f988c3f63e_z.jpg"
+    },
+    {
+      "original": "a zebra eating grass",
+      "chosen": "This image captures a zebra engaged in grazing on lush green grass.",
+      "rejected": "Check out this zebra munching on grass!",
+      "caption_idx": 493,
+      "pair_id": 477,
+      "image_index": 6688,
+      "image_url": "http://farm4.staticflickr.com/3326/3625310867_e9340a23ca_z.jpg"
+    },
+    {
+      "original": "a skate board and a skateboard on the ground",
+      "chosen": "This image presents a skateboard positioned on a flat, textured surface, highlighting its design.",
+      "rejected": "Check out this skateboard lying on the ground!",
+      "caption_idx": 494,
+      "pair_id": 478,
+      "image_index": 37475,
+      "image_url": "http://farm4.staticflickr.com/3619/3364617528_a52121ff48_z.jpg"
+    },
+    {
+      "original": "the polar is in the water",
+      "chosen": "This image illustrates a polar bear swimming gracefully in a clear blue ocean.",
+      "rejected": "Check out the polar bear swimming!",
+      "caption_idx": 495,
+      "pair_id": 479,
+      "image_index": 4554,
+      "image_url": "http://farm8.staticflickr.com/7168/6678525353_bf019c6276_z.jpg"
+    },
+    {
+      "original": "a person on a beach with boats in the water",
+      "chosen": "This image illustrates an individual strolling along a sandy shoreline, adjacent to moored vessels.",
+      "rejected": "Someone's chilling on the beach by the boats!",
+      "caption_idx": 496,
+      "pair_id": 480,
+      "image_index": 30250,
+      "image_url": "http://farm1.staticflickr.com/45/366912184_8e3b7b2ec8_z.jpg"
+    },
+    {
+      "original": "a tray of food on a table",
+      "chosen": "This image showcases an elegantly arranged tray filled with a variety of culinary delights.",
+      "rejected": "Check out this food tray on the table!",
+      "caption_idx": 497,
+      "pair_id": 481,
+      "image_index": 27262,
+      "image_url": "http://farm3.staticflickr.com/2688/4471097002_4ccdbdfae8_z.jpg"
+    },
+    {
+      "original": "a woman in ski gear standing on a snowy hill",
+      "chosen": "This image features a female skier poised confidently atop a snow-covered slope.",
+      "rejected": "Check out this woman ready to ski!",
+      "caption_idx": 498,
+      "pair_id": 482,
+      "image_index": 40267,
+      "image_url": "http://farm5.staticflickr.com/4036/4453631343_ded9e50064_z.jpg"
+    },
+    {
+      "original": "a girl carrying bananas on her head",
+      "chosen": "This image illustrates a young female individual balancing a cluster of bananas atop her head.",
+      "rejected": "Check out this girl with bananas on her head!",
+      "caption_idx": 499,
+      "pair_id": 483,
+      "image_index": 4621,
+      "image_url": "http://farm9.staticflickr.com/8047/8120514880_e0b5d94c14_z.jpg"
+    }
+  ]
+}
